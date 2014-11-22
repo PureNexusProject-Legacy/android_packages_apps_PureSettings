@@ -29,4 +29,14 @@
         android:summary="@string/kill_app_longpress_back_summary"
         android:defaultValue="false" />
 
+    <com.pure.settings.preferences.CustomSeekBarPreference
+        android:key="long_press_kill_delay"
+        android:title="@string/long_press_kill_delay"
+        android:max="3000"
+        settings:min="250"
+        settings:interval="250"
+        settings:units="ms"
+        android:persistent="false"
+        android:dependency="kill_app_longpress_back" />
+
 </PreferenceScreen>
