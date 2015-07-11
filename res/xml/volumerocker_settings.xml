@@ -72,4 +72,10 @@
         android:summary="@string/vol_zen_summary"
         android:defaultValue="false"/>
 
+    <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.VolumeStepsSettings"
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary" />
+
 </PreferenceScreen>
