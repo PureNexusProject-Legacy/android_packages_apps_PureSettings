@@ -152,6 +152,9 @@
     <!-- Power notification controls -->
     <string name="power_notification_title">Power notification controls</string>
     <string name="power_notification_summary">Advanced notification controls and information</string>
+    <!-- low battery notification toggle -->
+    <string name="battery_low_notif_title">Low battery notification</string>
+    <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
