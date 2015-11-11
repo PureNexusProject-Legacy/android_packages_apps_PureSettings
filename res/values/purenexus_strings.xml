@@ -116,6 +116,9 @@
 
     <!-- Navbar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar tuner</string>
     <string name="navbar_tuner_summary">Customize buttons and layout</string>
