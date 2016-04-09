@@ -72,6 +72,9 @@
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
     <string name="allow_lights_title">Lights in do not disturb mode</string>
     <string name="notification_light_screen_on">Lights with screen on</string>
+    <!-- Three finger swipe screenshot -->
+    <string name="three_finger_gesture">Three finger screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
