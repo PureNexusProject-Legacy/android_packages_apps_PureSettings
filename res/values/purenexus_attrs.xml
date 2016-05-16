@@ -20,4 +20,10 @@
         <attr name="min" format="integer" />
         <attr name="units" format="string|reference" />
     </declare-styleable>
+    <!-- ColorPicker -->
+    <declare-styleable name="ColorPickPref">
+        <attr name="alphaSlider" format="boolean" />
+        <attr name="alphaText" format="boolean" />
+        <attr name="colorgroupname" format="string" />
+    </declare-styleable>
 </resources>

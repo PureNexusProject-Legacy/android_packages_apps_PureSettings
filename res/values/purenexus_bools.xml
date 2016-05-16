@@ -18,4 +18,6 @@
     <bool name="def_battery_light_enabled">true</bool>
     <!-- Default value for battery light pulse -->
     <bool name="def_battery_light_pulse">true</bool>
+    <!-- ColorPicker -->
+    <bool name="showFullColorPickSummary">true</bool>
 </resources>
