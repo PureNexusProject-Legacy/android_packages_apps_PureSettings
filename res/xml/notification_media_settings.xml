@@ -40,6 +40,11 @@
                 android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
         </PreferenceScreen>
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.HeadsUpSettings"
+            android:key="heads_up_settings"
+            android:title="@string/headsup_settings_title" />
+
         <com.pure.settings.preferences.SystemSettingSwitchPreference
             android:key="battery_low_notification"
             android:title="@string/battery_low_notif_title"
