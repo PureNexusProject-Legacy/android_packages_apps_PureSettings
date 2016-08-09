@@ -66,4 +66,10 @@
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
 
+    <com.pure.settings.preferences.SystemSettingSwitchPreference
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
