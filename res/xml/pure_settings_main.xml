@@ -18,6 +18,17 @@
         android:title="@string/pure_settings_title" >
 
     <PreferenceCategory
+        android:key="pure_interface"
+        android:title="@string/pure_interface">
+
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.LockScreenSettings"
+            android:key="pure_lockscreen_settings"
+            android:title="@string/lockscreen_settings_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="pure_buttons"
         android:title="@string/pure_buttons">
 
