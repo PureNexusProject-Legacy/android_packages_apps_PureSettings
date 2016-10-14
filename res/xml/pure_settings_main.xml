@@ -17,4 +17,15 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/pure_settings_title" >
 
+    <PreferenceCategory
+        android:key="pure_buttons"
+        android:title="@string/pure_buttons">
+
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.PowerMenuSettings"
+            android:key="pure_powermenu_settings"
+            android:title="@string/powermenu_settings_title"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
