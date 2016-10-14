@@ -26,6 +26,11 @@
             android:key="pure_lockscreen_settings"
             android:title="@string/lockscreen_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.StatusBarSettings"
+            android:key="pure_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
