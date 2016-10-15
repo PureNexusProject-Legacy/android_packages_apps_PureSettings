@@ -47,6 +47,8 @@
 
     <!-- Notification drawer fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="notification_panel_title">Notification panel</string>
+    <string name="qs_panel_title">Quick settings panel</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
@@ -63,6 +65,9 @@
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
+
+    <!-- Notification & Media fragment -->
+    <string name="notification_media_settings_title">Media &amp; notifications</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>

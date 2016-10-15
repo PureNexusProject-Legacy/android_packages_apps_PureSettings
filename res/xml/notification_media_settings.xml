@@ -16,28 +16,4 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-        android:title="@string/notification_panel_title">
-
-        <ListPreference
-            android:key="quick_pulldown"
-            android:title="@string/quick_pulldown_title"
-            android:entries="@array/quick_pulldown_entries"
-            android:entryValues="@array/quick_pulldown_values"
-            android:persistent="false" />
-
-        <ListPreference
-            android:key="smart_pulldown"
-            android:title="@string/smart_pulldown_title"
-            android:entries="@array/smart_pulldown_entries"
-            android:entryValues="@array/smart_pulldown_values"
-            android:persistent="false" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/qs_panel_title">
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
