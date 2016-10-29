@@ -22,6 +22,8 @@
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
+    <string name="display_category">Display options</string>
+    <string name="led_category">LED controls</string>
     <!-- Wake when connected/disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
@@ -29,7 +31,6 @@
     <string name="display_color_title">Screen color &amp; appearance</string>
     <string name="display_color_summary">screen color controls and night mode</string>
     <!-- Notification/Battery lights -->
-    <string name="led_category">Led controls</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
@@ -164,6 +165,8 @@
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+    <string name="media_cat_title">Media options</string>
+    <string name="notif_cat_title">Notification options</string>
     <!-- Power notification controls -->
     <string name="power_notification_title">Power notification controls</string>
     <string name="power_notification_summary">Advanced notification controls and information</string>
