@@ -22,6 +22,7 @@
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
+    <string name="display_category">Display options</string>
     <string name="led_category">LED controls</string>
     <!-- Wake when connected/disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
@@ -156,6 +157,8 @@
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+    <string name="media_cat_title">Media options</string>
+    <string name="notif_cat_title">Notification options</string>
     <!-- Power notification controls -->
     <string name="power_notification_title">Power notification controls</string>
     <string name="power_notification_summary">Advanced notification controls and information</string>
