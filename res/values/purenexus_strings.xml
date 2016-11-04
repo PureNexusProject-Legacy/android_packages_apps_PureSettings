@@ -129,6 +129,9 @@
     <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
 
+    <!-- Miscellaneous fragment -->
+    <string name="misc_settings_title">Miscellaneous</string>
+
     <!-- Navbar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
     <string name="navigation_bar_opt_cat">Navigation bar options</string>
