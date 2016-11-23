@@ -44,11 +44,17 @@
 
     <!-- Navbar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_summary">Customize buttons and layout</string>
 
     <!-- Notification drawer fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
+    <!-- qs brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
@@ -68,6 +74,9 @@
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Power notification controls</string>
+    <string name="power_notification_summary">Advanced notification controls and information</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
@@ -92,9 +101,15 @@
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
+    <!-- Preference to show/hide embedded battery percentage -->
+    <string name="show_battery_percentage">Show battery percentage</string>
+    <string name="show_battery_percentage_summary">Show battery percentage when not charging</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- statusbar icon blacklist -->
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
     <!-- Clock settings -->
     <string name="clock_settings_title">Clock settings</string>
     <string name="clock_settings_summary">Custom clock and date options</string>
@@ -169,4 +184,13 @@
     <!-- Volume key orientation swap -->
     <string name="swap_volume_buttons_title">Volume button swap</string>
     <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
+    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
+    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+    <!-- Volume do not disturb switch -->
+    <string name="vol_zen_title">Do not disturb switch</string>
+    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
 </resources>
