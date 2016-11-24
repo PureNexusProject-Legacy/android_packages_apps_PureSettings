@@ -30,14 +30,18 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.pure.settings.preferences.CustomSeekBarPreference;
+
 public class NotificationDrawerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String PREF_COLUMNS = "qs_layout_columns";
 
     private ListPreference mQuickPulldown;
     ListPreference mSmartPulldown;
+    private CustomSeekBarPreference mQsColumns;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +63,12 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        mQsColumns = (CustomSeekBarPreference) findPreference(PREF_COLUMNS);
+        int columnsQs = Settings.System.getInt(resolver,
+                Settings.System.QS_LAYOUT_COLUMNS, 3);
+        mQsColumns.setValue(columnsQs / 1);
+        mQsColumns.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -79,6 +89,10 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
             int smartPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
+            return true;
+        } else if (preference == mQsColumns) {
+            int qsColumns = (Integer) newValue;
+            Settings.System.putInt(resolver, Settings.System.QS_LAYOUT_COLUMNS, qsColumns * 1);
             return true;
         }
         return false;
@@ -117,4 +131,3 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         }
     }
 }
-
