@@ -198,6 +198,9 @@
     <string name="qs_columns_title">Number of tiles in column</string>
     <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
     <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+    <!-- Quicks settings titles -->
+    <string name="qs_tile_title_visibility_title">Quick settings titles</string>
+    <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
