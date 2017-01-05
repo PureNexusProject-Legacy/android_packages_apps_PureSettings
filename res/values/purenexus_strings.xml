@@ -153,6 +153,9 @@
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
     <string name="long_press_kill_delay">App kill delay</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+    <string name="pixel_navbar_anim_summary">Enables the pixel navbar animation</string>
     <!-- Navbar toggle -->
     <string name="navbar_enable_bar">Enable</string>
     <!-- Navbar Dimensions -->
