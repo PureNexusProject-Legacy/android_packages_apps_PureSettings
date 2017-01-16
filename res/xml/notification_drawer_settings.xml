@@ -42,6 +42,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="qs_panel"
         android:title="@string/qs_panel_title">
 
         <com.pure.settings.preferences.SecureSettingSwitchPreference
@@ -54,6 +55,12 @@
             android:key="quick_settings_vibrate"
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+        <com.pure.settings.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_qs_disabled"
+            android:title="@string/lockscreen_qs_disabled_title"
+            android:summary="@string/lockscreen_qs_disabled_summary"
             android:defaultValue="false"/>
 
         <com.pure.settings.preferences.SystemSettingSwitchPreference

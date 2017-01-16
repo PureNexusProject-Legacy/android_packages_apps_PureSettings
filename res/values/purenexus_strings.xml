@@ -212,6 +212,9 @@
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
