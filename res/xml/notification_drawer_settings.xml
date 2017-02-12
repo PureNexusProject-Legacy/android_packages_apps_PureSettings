@@ -40,6 +40,12 @@
         android:title="@string/qs_panel_title">
 
         <com.pure.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_easy_toggle"
+            android:title="@string/qs_easy_toggle_title"
+            android:summary="@string/qs_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.pure.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"
             android:summary="@string/qs_brightness_slider_summary"
