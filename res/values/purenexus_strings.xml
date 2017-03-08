@@ -21,15 +21,15 @@
     <string name="pure_system">System</string>
 
     <!-- Color picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="dialog_color_picker">Color picker</string>
+    <string name="press_color_to_apply">Press on color to apply</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">PREVIEW</string>
     <string name="hex_reset_button_text">RESET</string>
     <string name="color_right_arrow" translatable="false">"→"</string>
     <string name="color_down_arrow" translatable="false">"↓"</string>
-    <string name="longpress_info">Longpress box to save color</string>
+    <string name="longpress_info">Long press box to save color</string>
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
@@ -84,35 +84,35 @@
     <string name="choose_app">Choose app</string>
 
     <!-- Lockscreen Fragment -->
-    <string name="lockscreen_settings_title">Lockscreen</string>
-    <string name="lockscreen_options_title">Lockscreen options</string>
-    <string name="lockscreen_secure_options_title">Secure Lockscreen options</string>
+    <string name="lockscreen_settings_title">Lock screen</string>
+    <string name="lockscreen_options_title">Lock screen options</string>
+    <string name="lockscreen_secure_options_title">Secure lock screen options</string>
     <!-- Pin scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Pin ripple -->
-    <string name="lockscreen_pin_ripple_title">Lockscreen Pin Ripple</string>
+    <string name="lockscreen_pin_ripple_title">Lock screen pin ripple</string>
     <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="lockscreen_items_settings_title">Lock screen items</string>
+    <string name="lockscreen_clock_title">Lock screen clock</string>
+    <string name="lockscreen_date_title">Lock screen date</string>
+    <string name="lockscreen_alarm_title">Lock screen alarm text</string>
     <!-- Lockscreen torch -->
-    <string name="keyguard_torch_title">Lockscreen torch</string>
-    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
+    <string name="keyguard_torch_title">Lock screen torch</string>
+    <string name="keyguard_torch_summary">Long press power button with screen off turns on torch</string>
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_summary">Enable media cover art on the lock screen</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
-    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lock screen to put the device to sleep</string>
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Lock screen clock font</string>
+    <string name="lock_clock_font_summary">Change the default font of the lock screen clock widget</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto Bold</string>
     <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -145,7 +145,7 @@
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibration_category">In call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
@@ -156,7 +156,7 @@
     <string name="navigation_bar_cus">Navbar customization</string>
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
     <string name="long_press_kill_delay">App kill delay</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
@@ -164,7 +164,7 @@
     <!-- Navbar toggle -->
     <string name="navbar_enable_bar">Enable</string>
     <!-- Navbar Dimensions -->
-    <string name="navbar_dimensions_title">Navbar Dimensions</string>
+    <string name="navbar_dimensions_title">Navbar dimensions</string>
     <string name="navigation_bar_height_title">Navigation bar height</string>
     <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
     <string name="navigation_bar_width_title">Navigation bar width</string>
@@ -181,10 +181,10 @@
     <string name="navbar_tuner_title">Navbar tuner</string>
     <string name="navbar_tuner_summary">Customize buttons and layout</string>
     <!-- One handed mode -->
-    <string name="one_handed_mode_title">One Handed mode</string>
+    <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
     <!-- Navbar double tap to sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Double-tap to sleep</string>
+    <string name="double_tap_sleep_nav_bar_title">Double tap to sleep</string>
     <string name="double_tap_sleep_nav_bar_summary">Double tap on the navigation bar to put the device to sleep</string>
 
     <!-- Notification drawer fragment -->
@@ -192,15 +192,15 @@
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
     <!-- QS easy toggles -->
-    <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
-    <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
+    <string name="qs_easy_toggle_title">Advanced quick setting easy toggle</string>
+    <string name="qs_easy_toggle_summary">One tap action to toggle bluetooth, data, or wifi</string>
     <!-- qs brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down quick settings</string>
+    <string name="quick_pulldown_summary_always">Always show quick settings on status bar pulldown</string>
     <string name="quick_pulldown_off">Off</string>
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
@@ -220,12 +220,12 @@
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
     <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
-    <string name="smart_pulldown_ongoing">no ongoing</string>
+    <string name="smart_pulldown_none">No notifications</string>
+    <string name="smart_pulldown_dismissable">No dismissable</string>
+    <string name="smart_pulldown_ongoing">No ongoing</string>
     <!-- Disable Quicks settings -->
     <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
+    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
@@ -258,7 +258,7 @@
     <string name="headsup_settings_title">Peeking notifications</string>
     <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
     <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Peeking notifications.</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop up window on your screen, enable Peeking notifications.</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
@@ -281,7 +281,7 @@
     <string name="heads_up_snooze_20min">20 minutes</string>
 
     <!-- Power Menu fragment -->
-    <string name="powermenu_settings_title">PowerMenu</string>
+    <string name="powermenu_settings_title">Power menu</string>
     <string name="power_category">Power menu options</string>
     <string name="actions_category">Power menu items</string>
     <!-- Power menu customization -->
@@ -315,20 +315,20 @@
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <!-- Immersive recents -->
-    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_title">Immersive recents</string>
     <string name="immersive_recents_default">Default</string>
     <string name="immersive_recents_fullscreen">Fullscreen</string>
-    <string name="immersive_recents_statusbar">Statusbar only</string>
+    <string name="immersive_recents_statusbar">Status bar only</string>
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- StatusBar fragment -->
-    <string name="statusbar_settings_title">Statusbar</string>
+    <string name="statusbar_settings_title">Status bar</string>
     <!-- Battery settings -->
     <string name="battery_settings_title">Battery settings</string>
     <string name="battery_settings_summary">Custom battery &amp; batterybar options</string>
     <string name="status_bar_battery_title">Battery icon</string>
     <!-- Battery bar settings -->
-    <string name="battery_bar_title">Battery Bar</string>
+    <string name="battery_bar_title">Battery bar</string>
     <string name="battery_bar_location">Battery bar location</string>
     <string name="battery_bar_color">Battery bar color</string>
     <string name="battery_bar_style_title">Battery bar style</string>
@@ -336,11 +336,11 @@
     <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
     <string name="battery_bar_hide">Hide</string>
-    <string name="battery_bar_statusbar">Statusbar</string>
+    <string name="battery_bar_statusbar">Status bar</string>
     <string name="battery_bar_topnav">Top of navbar</string>
     <string name="battery_bar_bottomnav">Bottom of navbar</string>
     <string name="battery_bar_reg">Regular</string>
-    <string name="battery_bar_center">Center-mirrored</string>
+    <string name="battery_bar_center">Center mirrored</string>
     <!-- Battery icon options -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
@@ -363,16 +363,16 @@
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_title">Carrier label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
     <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="show_carrier_keyguard">Lock screen only</string>
+    <string name="show_carrier_statusbar">Status bar only</string>
+    <string name="show_carrier_enabled">Lock screen &amp; status bar</string>
     <!-- Clock settings -->
     <string name="clock_settings_title">Clock settings</string>
     <string name="clock_settings_summary">Custom clock and date options</string>
@@ -381,7 +381,7 @@
     <string name="status_bar_show_clock_title">Show clock and date</string>
     <string name="status_bar_clock_seconds_title">Show seconds</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_info">24 hour clock is enabled</string>
     <string name="right_clock">Right clock</string>
     <string name="center_clock">Center clock</string>
     <string name="left_clock">Left clock</string>
@@ -400,7 +400,7 @@
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
     <!-- double tap statusbar to sleep -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_title">Double tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
     <!-- Network traffic Settings -->
     <string name="nettraffic_settings_title">Network traffic</string>
@@ -452,10 +452,10 @@
     <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
-    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
     <!-- Volume up exit do not disturb -->
     <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
-    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+    <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
