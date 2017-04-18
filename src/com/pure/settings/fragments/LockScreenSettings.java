@@ -17,11 +17,15 @@
 package com.pure.settings.fragments;
 
 import android.content.Context;
+import android.content.ContentResolver;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.provider.Settings;
+import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.internal.widget.LockPatternUtils;
@@ -31,7 +35,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.pure.settings.utils.Utils;
 import com.pure.settings.preferences.SystemSettingSwitchPreference;
 
-public class LockScreenSettings extends SettingsPreferenceFragment {
+public class LockScreenSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final int MY_USER_ID = UserHandle.myUserId();
 
@@ -40,11 +45,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
 
     private static final String KEYGUARD_TORCH = "keyguard_toggle_torch";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private FingerprintManager mFingerprintManager;
 
     private SystemSettingSwitchPreference mLsTorch;
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SwitchPreference mFpKeystore;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,13 +70,30 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
         if (!mFingerprintManager.isHardwareDetected()){
             secureCategory.removePreference(mFingerprintVib);
+            secureCategory.removePreference(mFpKeystore);
+        } else {
+            mFpKeystore.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
+            mFpKeystore.setOnPreferenceChangeListener(this);
         }
 
         if (!lockPatternUtils.isSecure(MY_USER_ID)) {
             prefScreen.removePreference(secureCategory);
         }
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mFpKeystore) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FP_UNLOCK_KEYSTORE, value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 
     @Override
