@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Rezgés ujjlenyomat-olvasóval való azonosításkor</string>
   <string name="fprint_sucess_vib_summary">Rezgés sikeres ujjlenyomat-olvasóval történt azonosítás esetén</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Zárképernyő elemek</string>
   <string name="lockscreen_clock_title">Zárképernyő óra</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Álló ikon</string>
   <string name="status_bar_battery_style_icon_landscape">Fekvő ikon</string>
   <string name="status_bar_battery_style_circle">Kör</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Szöveg</string>
   <string name="status_bar_battery_style_hidden">Rejtett</string>
   <!-- Battery percentage options -->

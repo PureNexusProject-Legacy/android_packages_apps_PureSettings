@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Pirštų atspaudų autentifikavimo vibracija</string>
   <string name="fprint_sucess_vib_summary">Vibruoti, kai sėkmingas pirštų atspaudų autentifikavimas</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Užrakinimo ekrano elementai</string>
   <string name="lockscreen_clock_title">Užrakinimo ekrano laikrodis</string>
@@ -127,8 +130,8 @@
   <!-- Miscellaneous fragment -->
   <string name="misc_settings_title">Įvairūs</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Pasveikinimo piktograma</string>
-  <string name="toast_icon_summary">Rodyti programos piktogramą su atitinkančiu pasveikinimu</string>
+  <string name="toast_icon_title">Iššokančio pranešimo piktograma</string>
+  <string name="toast_icon_summary">Rodyti programos piktogramą iššokančiame pranešime</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Slinkimo talpykla</string>
   <string name="pref_scrollingcache_summary">Slinkimo talpykla gali pagerinti slinkimo spartą atminties kainą</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Stati piktograma</string>
   <string name="status_bar_battery_style_icon_landscape">Gulsčia piktograma</string>
   <string name="status_bar_battery_style_circle">Apvalus</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Tekstas</string>
   <string name="status_bar_battery_style_hidden">Paslėptas</string>
   <!-- Battery percentage options -->

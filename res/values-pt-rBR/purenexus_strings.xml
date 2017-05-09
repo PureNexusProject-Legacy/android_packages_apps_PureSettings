@@ -89,11 +89,14 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrar após autenticação da impressão digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação de impressão digital for bem sucedida</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Itens da tela de bloqueio</string>
-  <string name="lockscreen_clock_title">Relógio na tela de bloqueio</string>
-  <string name="lockscreen_date_title">Data na tela de bloqueio</string>
-  <string name="lockscreen_alarm_title">Alarme na tela de bloqueio</string>
+  <string name="lockscreen_clock_title">Relógio</string>
+  <string name="lockscreen_date_title">Data</string>
+  <string name="lockscreen_alarm_title">Alarme</string>
   <!-- Lockscreen torch -->
   <string name="keyguard_torch_title">Lanterna na tela de bloqueio</string>
   <string name="keyguard_torch_summary">Manter o botão de energia pressionado com a tela desligada para ligar a lanterna</string>
@@ -229,7 +232,7 @@
   <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
   <string name="custom_header_browse_summary">Toque longo em qualquer imagem para usar o modo estático</string>
   <!-- Notification & Media fragment -->
-  <string name="notification_media_settings_title">Mídia &amp; notificações</string>
+  <string name="notification_media_settings_title">Mídia e notificações</string>
   <string name="media_cat_title">Opções de mídia</string>
   <string name="notif_cat_title">Opções de notificação</string>
   <!-- Power notification controls -->
@@ -285,7 +288,7 @@
   <string name="power_menu_sound_title">Painel de som</string>
   <string name="power_menu_bug_report_disabled">Relatório de erros está desabilitado nas configurações de desenvolvedor</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Exibir o menu de energia na tela bloqueo</string>
+  <string name="lockscreen_enable_power_menu_title">Exibir o menu de energia na tela de bloqueio</string>
   <!-- Recent Apps fragment -->
   <string name="recent_settings_title">Aplicativos recentes</string>
   <!-- Recent clear all button and location -->
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
   <string name="status_bar_battery_style_icon_landscape">Ícone paisagem</string>
   <string name="status_bar_battery_style_circle">Circular</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Texto</string>
   <string name="status_bar_battery_style_hidden">Oculta</string>
   <!-- Battery percentage options -->
@@ -356,7 +360,7 @@
   <string name="show_carrier_disabled">Desativado</string>
   <string name="show_carrier_keyguard">Somente na tela de bloqueio</string>
   <string name="show_carrier_statusbar">Somente na barra de status</string>
-  <string name="show_carrier_enabled">Tela de bloqueio &amp; barra de status</string>
+  <string name="show_carrier_enabled">Tela de bloqueio e barra de status</string>
   <!-- Clock settings -->
   <string name="clock_settings_title">Configurações do relógio</string>
   <string name="clock_settings_summary">Opções personalizadas para o relógio e data</string>

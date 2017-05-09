@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指纹验证振动</string>
   <string name="fprint_sucess_vib_summary">当指纹验证成功时振动</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">锁屏小部件</string>
   <string name="lockscreen_clock_title">锁屏界面时钟</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
   <string name="status_bar_battery_style_icon_landscape">横向图标</string>
   <string name="status_bar_battery_style_circle">环形</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">文本</string>
   <string name="status_bar_battery_style_hidden">隐藏</string>
   <!-- Battery percentage options -->

@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibration lors de l\'authentification par empreintes digitales</string>
   <string name="fprint_sucess_vib_summary">Vibrer lors d\'une authentification par empreinte digitale réussie</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Déverrouillage par empreinte digitale</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Éléments de l\'écran de verrouillage</string>
   <string name="lockscreen_clock_title">Horloge de l’écran de verrouillage</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
   <string name="status_bar_battery_style_circle">Cercle</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Texte</string>
   <string name="status_bar_battery_style_hidden">Masqué</string>
   <!-- Battery percentage options -->

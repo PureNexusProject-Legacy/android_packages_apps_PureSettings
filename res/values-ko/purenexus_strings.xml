@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">지문 인식시 진동</string>
   <string name="fprint_sucess_vib_summary">지문 인증이 성공하면 진동이 울립니다</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">잠금 화면 항목</string>
   <string name="lockscreen_clock_title">잠금 화면 시계</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">세로 아이콘</string>
   <string name="status_bar_battery_style_icon_landscape">가로 아이콘</string>
   <string name="status_bar_battery_style_circle">원형</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">숫자</string>
   <string name="status_bar_battery_style_hidden">숨기기</string>
   <!-- Battery percentage options -->

@@ -20,12 +20,12 @@
   <string name="pure_buttons">Бутони</string>
   <string name="pure_system">Система</string>
   <!-- Color picker -->
-  <string name="dialog_color_picker">Color picker</string>
-  <string name="press_color_to_apply">Press on color to apply</string>
+  <string name="dialog_color_picker">Избор на цвят</string>
+  <string name="press_color_to_apply">Натиснете върху цвят, за да го приложите</string>
   <string name="hex">Hex:</string>
   <string name="hex_check_button_text">ПРЕГЛЕД</string>
   <string name="hex_reset_button_text">НУЛИРАНЕ</string>
-  <string name="longpress_info">Long press box to save color</string>
+  <string name="longpress_info">Задръжте върху полето, за да запазите цвета</string>
   <!-- Display fragment -->
   <string name="display_settings_title">Екран</string>
   <string name="display_category">Опции за екрана</string>
@@ -77,40 +77,43 @@
   <string name="add">Добавяне</string>
   <string name="choose_app">Избор на приложение</string>
   <!-- Lockscreen Fragment -->
-  <string name="lockscreen_settings_title">Lock screen</string>
-  <string name="lockscreen_options_title">Lock screen options</string>
-  <string name="lockscreen_secure_options_title">Secure lock screen options</string>
+  <string name="lockscreen_settings_title">Заключен екран</string>
+  <string name="lockscreen_options_title">Опции за заключен екран</string>
+  <string name="lockscreen_secure_options_title">Опции за защитен заключен екран</string>
   <!-- Pin scramble -->
   <string name="unlock_scramble_pin_layout_title">Разбъркване на оформлението</string>
   <string name="unlock_scramble_pin_layout_summary">Разбъркване оформлението за ПИН при отключване на устройството</string>
   <!-- Pin ripple -->
-  <string name="lockscreen_pin_ripple_title">Lock screen pin ripple</string>
+  <string name="lockscreen_pin_ripple_title">Вълнички при ПИН на заключен екран</string>
   <string name="lockscreen_pin_ripple_summary">Изключете, за да премахнете вълничките при въвеждане на ПИН-кода</string>
   <!-- fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Вибрация при удостов. с пръстов отпечатък</string>
+  <string name="fprint_sucess_vib_summary">Вибрация при успешно удостоверяване с пръстов отпечатък</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
-  <string name="lockscreen_items_settings_title">Lock screen items</string>
-  <string name="lockscreen_clock_title">Lock screen clock</string>
-  <string name="lockscreen_date_title">Lock screen date</string>
-  <string name="lockscreen_alarm_title">Lock screen alarm text</string>
+  <string name="lockscreen_items_settings_title">Елементи на заключен екран</string>
+  <string name="lockscreen_clock_title">Часовник на заключен екран</string>
+  <string name="lockscreen_date_title">Дата на заключен екран</string>
+  <string name="lockscreen_alarm_title">Текст на будилник на заключен екран</string>
   <!-- Lockscreen torch -->
-  <string name="keyguard_torch_title">Lock screen torch</string>
-  <string name="keyguard_torch_summary">Long press power button with screen off turns on torch</string>
+  <string name="keyguard_torch_title">Фенерче на заключен екран</string>
+  <string name="keyguard_torch_summary">Продължително натискане на бутона за захранване при изключен екран включва фенерчето</string>
   <!-- Lockscreen cover art -->
-  <string name="media_art_title">Media cover art</string>
-  <string name="media_art_summary">Enable media cover art on the lock screen</string>
+  <string name="media_art_title">Обложки на медията</string>
+  <string name="media_art_summary">Включване обложката на медията при заключен екран</string>
   <!-- Lockscreen double tap to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
-  <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lock screen to put the device to sleep</string>
+  <string name="double_tap_sleep_anywhere_title">Двойно докосв. където и да е за заспиване</string>
+  <string name="double_tap_sleep_anywhere_summary">Двойно докосване където и да е върху заключения екран за заспиване на устройството</string>
   <!-- Lockscreen clock fonts -->
-  <string name="lock_clock_font_title">Lock screen clock font</string>
-  <string name="lock_clock_font_summary">Change the default font of the lock screen clock widget</string>
+  <string name="lock_clock_font_title">Шрифт за часовника на заключен екран</string>
+  <string name="lock_clock_font_summary">Промяна на шрифта по подразбиране на джаджата часовник за заключен екран</string>
   <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Roboto Bold</string>
   <string name="lock_clock_font_italic">Roboto Italic</string>
   <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
-  <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (по поразбиране)</string>
   <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
   <string name="lock_clock_font_thin_normal">Roboto Thin</string>
   <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
@@ -125,29 +128,29 @@
   <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
   <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
   <!-- Miscellaneous fragment -->
-  <string name="misc_settings_title">Miscellaneous</string>
+  <string name="misc_settings_title">Разни</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Toast icon</string>
-  <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+  <string name="toast_icon_title">Икона върху тост съобщенията</string>
+  <string name="toast_icon_summary">Показване иконата на приложението върху тост съобщенията</string>
   <!-- Scrolling Cache -->
-  <string name="pref_scrollingcache_title">Scrolling cache</string>
-  <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-  <string name="pref_scrollingcache_force_enable">Force enable</string>
-  <string name="pref_scrollingcache_default_enable">Default enable</string>
-  <string name="pref_scrollingcache_default_disable">Default disable</string>
-  <string name="pref_scrollingcache_force_disable">Force disable</string>
+  <string name="pref_scrollingcache_title">Кеш за превъртане</string>
+  <string name="pref_scrollingcache_summary">Кешът за превъртане може да подобри производителността при превъртане, за сметка на паметта</string>
+  <string name="pref_scrollingcache_force_enable">Принудително включване</string>
+  <string name="pref_scrollingcache_default_enable">Включено по подразбиране</string>
+  <string name="pref_scrollingcache_default_disable">Изключено по подразбиране</string>
+  <string name="pref_scrollingcache_force_disable">Принудително изключване</string>
   <!-- Incall vibrate options -->
-  <string name="incall_vibration_category">In call vibration options</string>
-  <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-  <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+  <string name="incall_vibration_category">Опции за вибрация при разговор</string>
+  <string name="incall_vibrate_connect_title">Вибриране при свързване</string>
+  <string name="incall_vibrate_call_wait_title">Вибриране при чакащо повикване</string>
+  <string name="incall_vibrate_disconnect_title">Вибриране при разпадане на вр.</string>
   <!-- Navbar fragment -->
-  <string name="navbar_settings_title">Navigation bar</string>
-  <string name="navigation_bar_opt_cat">Navigation bar options</string>
-  <string name="navigation_bar_cus">Navbar customization</string>
+  <string name="navbar_settings_title">Лента за навигация</string>
+  <string name="navigation_bar_opt_cat">Опции на лентата за навигация</string>
+  <string name="navigation_bar_cus">Персонализиране на нав. лента</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Kill app back button</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
+  <string name="kill_app_longpress_back">Убиване на прил. с бутон Назад</string>
+  <string name="kill_app_longpress_back_summary">Убиване на приложението на преден план със задържане на бутона за връщане</string>
   <string name="long_press_kill_delay">Забавяне преди убиване на приложение</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Анимация в стил Pixel в нав. лента</string>
@@ -155,7 +158,7 @@
   <!-- Navbar toggle -->
   <string name="navbar_enable_bar">Включване</string>
   <!-- Navbar Dimensions -->
-  <string name="navbar_dimensions_title">Navbar dimensions</string>
+  <string name="navbar_dimensions_title">Размери на навигационната лента</string>
   <string name="navigation_bar_height_title">Височина на навигационната лента</string>
   <string name="navigation_bar_height_landscape_title">Височина на нав. лента при пейзаж</string>
   <string name="navigation_bar_width_title">Ширина на навигационната лента</string>
@@ -172,25 +175,25 @@
   <string name="navbar_tuner_title">Тунер на навигационната лента</string>
   <string name="navbar_tuner_summary">Персонализиране на бутоните и оформление</string>
   <!-- One handed mode -->
-  <string name="one_handed_mode_title">One handed mode</string>
+  <string name="one_handed_mode_title">Режим „една ръка“</string>
   <string name="one_handed_mode_summary">Позволява плъзване върху лентата за навигация за включване на режим „една ръка“</string>
   <!-- Navbar double tap to sleep -->
-  <string name="double_tap_sleep_nav_bar_title">Double tap to sleep</string>
+  <string name="double_tap_sleep_nav_bar_title">Двойно почукване за заспиване</string>
   <string name="double_tap_sleep_nav_bar_summary">Двукратно натискане върху лентата за навигация, за заспиване на устройството</string>
   <!-- Notification drawer fragment -->
   <string name="notification_drawer_settings_title">Падащо меню за известия</string>
   <string name="notification_panel_title">Панел за известия</string>
   <string name="qs_panel_title">Панел за бързи настройки</string>
   <!-- QS easy toggles -->
-  <string name="qs_easy_toggle_title">Advanced quick setting easy toggle</string>
-  <string name="qs_easy_toggle_summary">One tap action to toggle bluetooth, data, or wifi</string>
+  <string name="qs_easy_toggle_title">Лесно превкл. на разширени бързи настройки</string>
+  <string name="qs_easy_toggle_summary">Вкл./изкл. на блутут, данни или Wi-Fi с едно докосване</string>
   <!-- qs brightness slider -->
   <string name="qs_brightness_slider_title">Плъзгач за яркост</string>
   <string name="qs_brightness_slider_summary">Показване на плъзгача за яркост в панела за бързи настройки</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Бързо дърпане надолу</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down quick settings</string>
-  <string name="quick_pulldown_summary_always">Always show quick settings on status bar pulldown</string>
+  <string name="quick_pulldown_summary">%1$s край на лентата на състоянието отваря бързи настройки</string>
+  <string name="quick_pulldown_summary_always">Винаги показване на бързи настройки при дърпане лентата на състоянието</string>
   <string name="quick_pulldown_off">Изкл.</string>
   <string name="quick_pulldown_left">Левия</string>
   <string name="quick_pulldown_right">Десния</string>
@@ -201,260 +204,261 @@
   <string name="qs_rows_landscape_title">Брой редове (пейзаж)</string>
   <!-- Quicks settings titles -->
   <string name="qs_tile_title_visibility_title">Заглавия на бързи настройки</string>
-  <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
+  <string name="qs_tile_title_visibility_summary">Заглавия на бързите настройки</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Вибриране при докосване</string>
+  <string name="quick_settings_vibrate_summary">Вибриране, когато докосвате плочки</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">No notifications</string>
-  <string name="smart_pulldown_dismissable">No dismissable</string>
-  <string name="smart_pulldown_ongoing">No ongoing</string>
+  <string name="smart_pulldown_title">Интелигентно падащо меню</string>
+  <string name="smart_pulldown_summary">Отваряне на бързи настройки, когато има %1$s известия</string>
+  <string name="smart_pulldown_none_summary">Отваряне на бързи настройки, когато няма известия</string>
+  <string name="smart_pulldown_off">Изкл.</string>
+  <string name="smart_pulldown_none">Няма известия</string>
+  <string name="smart_pulldown_dismissable">Няма отхвърлящи се</string>
+  <string name="smart_pulldown_ongoing">Няма текущи</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
+  <string name="lockscreen_qs_disabled_title">Забраняване на бързи настройки</string>
+  <string name="lockscreen_qs_disabled_summary">Забраняване на бързите настройки при защитен заключен екран</string>
   <!-- QS headers -->
-  <string name="qs_header_category">Quick settings header</string>
-  <string name="status_bar_custom_header_title">Custom header image</string>
-  <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+  <string name="qs_header_category">Заглавка на бързите настройки</string>
+  <string name="status_bar_custom_header_title">Изображение за заглавка по избор</string>
+  <string name="status_bar_custom_header_summary">Включване изображение за заглавката на панела за известия</string>
+  <string name="daylight_header_pack_title">Пакет снимки за заглавка</string>
+  <string name="status_bar_custom_header_shadow_title">Сянка на заглавната снимка</string>
+  <string name="status_bar_custom_header_shadow_summary">За по-добра видимост при ярки изображения</string>
+  <string name="static_header_provider_title">Статично</string>
+  <string name="daylight_header_provider_title">Динамично</string>
+  <string name="custom_header_provider_title">Доставчик на заглавки</string>
+  <string name="custom_header_browse_title">Преглед на инсталираните заглавки</string>
+  <string name="custom_header_browse_summary">Задържане върху изображение, за използване в статичен режим</string>
   <!-- Notification & Media fragment -->
-  <string name="notification_media_settings_title">Media &amp; notifications</string>
-  <string name="media_cat_title">Media options</string>
-  <string name="notif_cat_title">Notification options</string>
+  <string name="notification_media_settings_title">Медия и известия</string>
+  <string name="media_cat_title">Медийни опции</string>
+  <string name="notif_cat_title">Опции за известията</string>
   <!-- Power notification controls -->
-  <string name="power_notification_title">Power notification controls</string>
-  <string name="power_notification_summary">Advanced notification controls and information</string>
+  <string name="power_notification_title">Известия за захранването</string>
+  <string name="power_notification_summary">Разширени известия за захранването и информация</string>
   <!-- low battery notification toggle -->
-  <string name="battery_low_notif_title">Low battery notification</string>
-  <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+  <string name="battery_low_notif_title">Известие за изтощена батерия</string>
+  <string name="battery_low_notif_summary">Показва известие при ниско ниво на батерията</string>
   <!-- double tap power button vibration -->
-  <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
-  <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
+  <string name="dbl_tap_vib_title">Вибрация при двойно натиск. на Захранване</string>
+  <string name="dbl_tap_vib_summary">Вибрация при двойно натискане на бутона за захранване, за да се отвори камерата</string>
   <!-- Heads up settings -->
-  <string name="headsup_settings_title">Peeking notifications</string>
-  <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
-  <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop up window on your screen, enable Peeking notifications.</string>
+  <string name="headsup_settings_title">Изскачащи известия</string>
+  <string name="summary_heads_up_enabled">Изскачащите известия са включени</string>
+  <string name="summary_heads_up_disabled">Изскачащите известия са изключени</string>
+  <string name="heads_up_disabled_notice">За да разрешите на приложенията да показват интерактивни известия в изскачащ прозорец на екрана, включете Изскачащи известия.</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Време</string>
+  <string name="heads_up_time_out_summary">Известията ще се показват за <xliff:g id="number">%d</xliff:g> секунди</string>
+  <string name="heads_up_time_out_2sec">2 секунди</string>
+  <string name="heads_up_time_out_4sec">4 секунди</string>
+  <string name="heads_up_time_out_5sec">5 секунди</string>
+  <string name="heads_up_time_out_6sec">6 секунди</string>
+  <string name="heads_up_time_out_8sec">8 секунди</string>
+  <string name="heads_up_time_out_10sec">10 секунди</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_3min">3 minutes</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Таймер за отлагане</string>
+  <string name="heads_up_snooze_summary_one_minute">Плъзването нагоре по известията от това приложение ще ги отложи за 1 минута</string>
+  <string name="heads_up_snooze_summary">Плъзването нагоре по известията от това приложение ще ги отложи за <xliff:g id="number">%d</xliff:g> минути</string>
+  <string name="heads_up_snooze_disabled_summary">Таймерът за отлагане е деактивиран</string>
+  <string name="heads_up_snooze_1min">1 минута</string>
+  <string name="heads_up_snooze_3min">3 минути</string>
+  <string name="heads_up_snooze_5min">5 минути</string>
+  <string name="heads_up_snooze_10min">10 минути</string>
+  <string name="heads_up_snooze_15min">15 минути</string>
+  <string name="heads_up_snooze_20min">20 минути</string>
   <!-- Power Menu fragment -->
-  <string name="powermenu_settings_title">Power menu</string>
-  <string name="power_category">Power menu options</string>
-  <string name="actions_category">Power menu items</string>
+  <string name="powermenu_settings_title">Меню за захранване</string>
+  <string name="power_category">Опции на менюто за захранване</string>
+  <string name="actions_category">Елементи на менюто за захранване</string>
   <!-- Power menu customization -->
-  <string name="power_menu_reboot_title">Reboot</string>
-  <string name="power_menu_screenshot_title">Screenshot</string>
-  <string name="power_menu_screenrecord_title">Screen record</string>
-  <string name="power_menu_torch_title">Flashlight</string>
-  <string name="power_menu_airplane_title">Airplane mode</string>
-  <string name="power_menu_users_title">User switcher</string>
-  <string name="power_menu_search_title">Search</string>
-  <string name="power_menu_voice_title">Voice search</string>
-  <string name="power_menu_settings_title">Settings shortcut</string>
-  <string name="power_menu_lockdown_title">Device lockdown</string>
-  <string name="power_menu_bug_report_title">Bug report</string>
-  <string name="power_menu_sound_title">Sound panel</string>
-  <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+  <string name="power_menu_reboot_title">Рестартиране</string>
+  <string name="power_menu_screenshot_title">Екранна снимка</string>
+  <string name="power_menu_screenrecord_title">Видеозапис на екрана</string>
+  <string name="power_menu_torch_title">Фенерче</string>
+  <string name="power_menu_airplane_title">Самолетен режим</string>
+  <string name="power_menu_users_title">Смяна на потребител</string>
+  <string name="power_menu_search_title">Търсене</string>
+  <string name="power_menu_voice_title">Гласово търсене</string>
+  <string name="power_menu_settings_title">Пряк път за настройките</string>
+  <string name="power_menu_lockdown_title">Заключване на устройството</string>
+  <string name="power_menu_bug_report_title">Сигнал за грешка</string>
+  <string name="power_menu_sound_title">Звуков панел</string>
+  <string name="power_menu_bug_report_disabled">Сигналите за грешки са забранени в настройките за програмисти</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
+  <string name="lockscreen_enable_power_menu_title">Показв. менюто за захр. при защитен закл. екран</string>
   <!-- Recent Apps fragment -->
-  <string name="recent_settings_title">Recent apps</string>
+  <string name="recent_settings_title">Скорошни приложения</string>
   <!-- Recent clear all button and location -->
-  <string name="show_clear_all_recents_button_title">Clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="show_clear_all_recents_button_title">Бутон за изчистване на всичко</string>
+  <string name="show_clear_all_recents_button_summary_on">Показване на плаващ бутон за изчистване на всичко</string>
+  <string name="show_clear_all_recents_button_summary_off">Показв. „Изчиств. на всичко“ от AOSP</string>
+  <string name="recents_clear_all_location_title">Местополож. на „изчиств. на всичко“</string>
+  <string name="recents_clear_all_location_top_right">Горе вдясно</string>
+  <string name="recents_clear_all_location_top_left">Горе вляво</string>
+  <string name="recents_clear_all_location_top_center">Горе в средата</string>
+  <string name="recents_clear_all_location_bottom_right">Долу вдясно</string>
+  <string name="recents_clear_all_location_bottom_left">Долу вляво</string>
+  <string name="recents_clear_all_location_bottom_center">Долу в следата</string>
   <!-- Immersive recents -->
-  <string name="immersive_recents_title">Immersive recents</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Status bar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Скорошни тип Immersive</string>
+  <string name="immersive_recents_default">По подразбиране</string>
+  <string name="immersive_recents_fullscreen">На цял екран</string>
+  <string name="immersive_recents_statusbar">Само лентата на състоянието</string>
+  <string name="immersive_recents_navbar">Само навигационната лента</string>
   <!-- StatusBar fragment -->
-  <string name="statusbar_settings_title">Status bar</string>
+  <string name="statusbar_settings_title">Лента на състоянието</string>
   <!-- Battery settings -->
-  <string name="battery_settings_title">Battery settings</string>
-  <string name="battery_settings_summary">Custom battery &amp; batterybar options</string>
-  <string name="status_bar_battery_title">Battery icon</string>
+  <string name="battery_settings_title">Настройки на батерията</string>
+  <string name="battery_settings_summary">Потребителски опции за батерия и бат.-лента</string>
+  <string name="status_bar_battery_title">Икона на батерията</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar location</string>
-  <string name="battery_bar_color">Battery bar color</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hide</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navbar</string>
-  <string name="battery_bar_bottomnav">Bottom of navbar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center mirrored</string>
+  <string name="battery_bar_title">Батерия-лента</string>
+  <string name="battery_bar_location">Местоположение на батерия-лента</string>
+  <string name="battery_bar_color">Цвят на лента-батерия</string>
+  <string name="battery_bar_style_title">Стил на лента-батерия</string>
+  <string name="battery_bar_thickness_title">Дебелина на лента-батерия</string>
+  <string name="battery_bar_animate_title">Анимация при зареждане</string>
+  <string name="battery_bar_animate_summary">Анимацията при зареждане може да доведе до лошо потребителско изживяване. Включете по ваша преценка.</string>
+  <string name="battery_bar_hide">Скриване</string>
+  <string name="battery_bar_statusbar">Лента на състоянието</string>
+  <string name="battery_bar_topnav">Горната част на навигац. лента</string>
+  <string name="battery_bar_bottomnav">Долната част на навигац. лента</string>
+  <string name="battery_bar_reg">Обикновена</string>
+  <string name="battery_bar_center">Огледално центрирана</string>
   <!-- Battery icon options -->
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_title">Стил на състоян. на батерията</string>
+  <string name="status_bar_battery_style_icon_portrait">Икона - портрет</string>
+  <string name="status_bar_battery_style_icon_landscape">Икона - пейзаж</string>
+  <string name="status_bar_battery_style_circle">Кръг</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_text">Текст</string>
+  <string name="status_bar_battery_style_hidden">Скрита</string>
   <!-- Battery percentage options -->
-  <string name="status_bar_battery_percentage_title">Show battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Процент на батерията</string>
+  <string name="status_bar_battery_percentage_default">Скрит</string>
+  <string name="status_bar_battery_percentage_text_inside">В иконата</string>
+  <string name="status_bar_battery_percentage_text_next">До иконата</string>
   <!-- Battery Tile style -->
-  <string name="status_bar_battery_style_tile_title">Battery tile style</string>
-  <string name="status_bar_battery_style_tile_summary">Sync the same icon style chosen for the statusbar battery</string>
+  <string name="status_bar_battery_style_tile_title">Стил на плочката за батерията</string>
+  <string name="status_bar_battery_style_tile_summary">Синхронизиране на същия стил икона, избран за лентата на състоянието</string>
   <!-- Brightness control -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+  <string name="status_bar_toggle_brightness">Управление на яркостта</string>
+  <string name="status_bar_toggle_brightness_summary">Регулиране на яркостта чрез плъзгане в лентата на състоянието</string>
   <!-- statusbar icon blacklist -->
-  <string name="status_bar_icon_blacklist_title">Status bar icons</string>
-  <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+  <string name="status_bar_icon_blacklist_title">Икони в лентата на състоянието</string>
+  <string name="status_bar_icon_blacklist_summary">Конфигуриране какви икони да се показват в лентата на състоянието</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Carrier label</string>
-  <string name="carrier_label_settings_summary">Customize the carrier label</string>
-  <string name="custom_carrier_label_title">Custom carrier label</string>
-  <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-  <string name="custom_carrier_label_notset">Custom label currently not set</string>
-  <string name="show_carrier_title">Carrier label</string>
-  <string name="show_carrier_disabled">Disabled</string>
-  <string name="show_carrier_keyguard">Lock screen only</string>
-  <string name="show_carrier_statusbar">Status bar only</string>
-  <string name="show_carrier_enabled">Lock screen &amp; status bar</string>
+  <string name="carrier_label_settings_title">Име на оператор</string>
+  <string name="carrier_label_settings_summary">Персонализиране името на оператора</string>
+  <string name="custom_carrier_label_title">Персонализирано име на оператор</string>
+  <string name="custom_carrier_label_explain">Въведете ново име. Оставете празно, за връщане към стандартното.</string>
+  <string name="custom_carrier_label_notset">Няма персонализирано име</string>
+  <string name="show_carrier_title">Име на оператор</string>
+  <string name="show_carrier_disabled">Изключено</string>
+  <string name="show_carrier_keyguard">Само на заключен екран</string>
+  <string name="show_carrier_statusbar">Само лентата на състоянието</string>
+  <string name="show_carrier_enabled">Заключен екран и лента на съст.</string>
   <!-- Clock settings -->
-  <string name="clock_settings_title">Clock settings</string>
-  <string name="clock_settings_summary">Custom clock and date options</string>
+  <string name="clock_settings_title">Настройки на часовника</string>
+  <string name="clock_settings_summary">Потребителски опции за часовник и дата</string>
   <!-- clock date options -->
-  <string name="clock_title_enable">Alignment</string>
-  <string name="status_bar_show_clock_title">Show clock and date</string>
-  <string name="status_bar_clock_seconds_title">Show seconds</string>
+  <string name="clock_title_enable">Подравняване</string>
+  <string name="status_bar_show_clock_title">Показване на часовник и дата</string>
+  <string name="status_bar_clock_seconds_title">Показване на секунди</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24 hour clock is enabled</string>
-  <string name="right_clock">Right clock</string>
-  <string name="center_clock">Center clock</string>
-  <string name="left_clock">Left clock</string>
-  <string name="clock_date_display">Date</string>
-  <string name="clock_date_style">Date style</string>
-  <string name="clock_date_position">Date position</string>
-  <string name="clock_date_format">Date format</string>
-  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Enter string</string>
-  <string name="clock_date_right">Right of time</string>
-  <string name="clock_date_left">Left of time</string>
-  <string name="clock_am_pm_date_normal">Normal</string>
-  <string name="clock_am_pm_date_small">Small</string>
-  <string name="clock_am_pm_date_none">Hidden</string>
-  <string name="clock_date_style_lowercase">Lowercase</string>
-  <string name="clock_date_style_uppercase">Uppercase</string>
-  <string name="clock_date_format_custom">Custom java format</string>
+  <string name="status_bar_am_pm_info">24-часов часовник е активиран</string>
+  <string name="right_clock">Десен часовник</string>
+  <string name="center_clock">Центриран часовник</string>
+  <string name="left_clock">Ляв часовник</string>
+  <string name="clock_date_display">Дата</string>
+  <string name="clock_date_style">Стил на дата</string>
+  <string name="clock_date_position">Позиция на датата</string>
+  <string name="clock_date_format">Формат на датата</string>
+  <string name="clock_date_string_edittext_title">Трябва да е в DateFormat, напр. ММ/дд/гг</string>
+  <string name="clock_date_string_edittext_summary">Въведете текст</string>
+  <string name="clock_date_right">Вдясно от часовника</string>
+  <string name="clock_date_left">Вляво от часовника</string>
+  <string name="clock_am_pm_date_normal">Нормален</string>
+  <string name="clock_am_pm_date_small">Малък</string>
+  <string name="clock_am_pm_date_none">Скрит</string>
+  <string name="clock_date_style_lowercase">Малки букви</string>
+  <string name="clock_date_style_uppercase">Главни букви</string>
+  <string name="clock_date_format_custom">Потребителски java формат</string>
   <!-- double tap statusbar to sleep -->
-  <string name="double_tap_to_sleep_title">Double tap to sleep</string>
-  <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+  <string name="double_tap_to_sleep_title">Двойно почукване за заспиване</string>
+  <string name="double_tap_to_sleep_summary">Двукратно натискане върху лентата на състоянието за заспиване на устройството</string>
   <!-- Network traffic Settings -->
-  <string name="nettraffic_settings_title">Network traffic</string>
-  <string name="nettraffic_settings_summary">Network traffic options</string>
+  <string name="nettraffic_settings_title">Мрежов трафик</string>
+  <string name="nettraffic_settings_summary">Опции за мрежов трафик</string>
   <!-- Network traffic options -->
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="show_network_traffic_state">Трафик в лентата на състоянието</string>
+  <string name="show_network_traffic_unit">Мерна единица</string>
+  <string name="show_network_traffic_frequency">Интервал на обновяване</string>
+  <string name="show_network_traffic_disable">Изключен</string>
+  <string name="show_network_traffic_up">Изходящ</string>
+  <string name="show_network_traffic_down">Входящ</string>
+  <string name="show_network_traffic_all">Изходящ и входящ</string>
+  <string name="show_network_traffic_bit">Бита за секунда</string>
+  <string name="show_network_traffic_byte">Байта за секунда</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+  <string name="network_traffic_autohide">Автоматично скриване</string>
+  <string name="network_traffic_autohide_summary">Скриване на трафик монитора, когато няма активност</string>
+  <string name="network_traffic_autohide_threshold">Праг на неактивност</string>
+  <string name="network_traffic_hidearrow">Скриване на стрелките</string>
+  <string name="network_traffic_hidearrow_summary">Скриване стрелките на индикатора за мрежовия трафик</string>
   <!-- Notification count -->
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+  <string name="status_bar_notif_count_title">Показване броя на известията</string>
+  <string name="status_bar_notif_count_summary">Показване броя на чакащите известия</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
-  <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+  <string name="bluetooth_battery_title">Показв. батерията на блутут устройствата</string>
+  <string name="bluetooth_battery_summary">Показва състоянието на батерията за текущо свързаните блутут устройства, ако има такива.</string>
   <!-- Volume Rocker fragment -->
-  <string name="volumerocker_settings_title">Volume rocker</string>
+  <string name="volumerocker_settings_title">Бутони за звука</string>
   <!-- Volume button wake -->
-  <string name="volbtn_wake_device_title">Volume button wake</string>
-  <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+  <string name="volbtn_wake_device_title">Събуждане с бутоните за звука</string>
+  <string name="button_wake_summary">Може да не събуди устройството, ако управлението на музиката е активно и свири музика</string>
   <!-- Volume button track change -->
-  <string name="volbtn_music_controls_title">Music control</string>
-  <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
+  <string name="volbtn_music_controls_title">Управление на музиката</string>
+  <string name="volbtn_music_controls_summary">При изключен екран, със задържането на бутоните за звука ще се сменят песните</string>
   <!-- Volume key cursor control -->
-  <string name="volbtn_cursor_control_title">Volume key cursor control</string>
-  <string name="volbtn_cursor_control_off">Disabled</string>
-  <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-  <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+  <string name="volbtn_cursor_control_title">Преместв. на курсора с бут. за звука</string>
+  <string name="volbtn_cursor_control_off">Изключено</string>
+  <string name="volbtn_cursor_control_on">Звук нагоре/надолу премества курсора наляво/надясно</string>
+  <string name="volbtn_cursor_control_on_reverse">Звук нагоре/надолу премества курсора надясно/наляво</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-  <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+  <string name="volume_keys_control_media_stream_title">Бутоните за звука регулират медията</string>
+  <string name="volume_keys_control_media_stream_summary">Принудително задаване на бутоните за звука да управляват медийния поток</string>
   <!-- Volume key orientation swap -->
-  <string name="swap_volume_buttons_title">Volume button swap</string>
-  <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>
+  <string name="swap_volume_buttons_title">Размяна на бутоните за звука</string>
+  <string name="swap_volume_buttons_summary">Промяна действието на бутоните за звука, въз основа на текущата ориентация</string>
   <!-- Volume down enter do not disturb -->
-  <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
-  <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
+  <string name="volbtn_down_zen_title">Намаляване на звука до „не безпокойте“</string>
+  <string name="volbtn_down_zen_summary">Позволява с намаляването на звука да се влиза в режим „не безпокойте“</string>
   <!-- Volume up exit do not disturb -->
-  <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
-  <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
+  <string name="volbtn_up_zen_title">Изход от „не безпокойте“ с усилване на звука</string>
+  <string name="volbtn_up_zen_summary">Позволява с усилването на звука да се излиза от режим „не безпокойте“</string>
   <!-- Volume do not disturb switch -->
-  <string name="vol_zen_title">Do not disturb switch</string>
-  <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
+  <string name="vol_zen_title">Превключвател „не безпокойте“</string>
+  <string name="vol_zen_summary">Показване на превключвател „не безпокойте“ в панела за звука</string>
   <!-- Screen record chord behavior -->
-  <string name="screen_record_chord_title">Power + volume up behavior</string>
-  <string name="screen_record_chord_screenrecord">Start screen recording</string>
-  <string name="screen_record_chord_selscreenshot">Take screenshot of selectable area</string>
+  <string name="screen_record_chord_title">Бутони Захранване+Усилване звук</string>
+  <string name="screen_record_chord_screenrecord">Стартира видеозапис на екрана</string>
+  <string name="screen_record_chord_selscreenshot">Прави снимка на избрана област</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Volume steps</string>
-  <string name="volume_steps_summary">Customize volume steps</string>
-  <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-  <string name="volume_steps_music_title">Volume steps: Media</string>
-  <string name="volume_steps_notification_title">Volume steps: Notification</string>
-  <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-  <string name="volume_steps_system_title">Volume steps: System</string>
-  <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-  <string name="volume_steps_reset">Reset</string>
+  <string name="volume_steps_title">Стъпки на звука</string>
+  <string name="volume_steps_summary">Персонализиране стъпките на силата на звука</string>
+  <string name="volume_steps_alarm_title">Будилник</string>
+  <string name="volume_steps_dtmf_title">DTMF</string>
+  <string name="volume_steps_music_title">Медия</string>
+  <string name="volume_steps_notification_title">Известия</string>
+  <string name="volume_steps_ring_title">Звънене</string>
+  <string name="volume_steps_system_title">Система</string>
+  <string name="volume_steps_voice_call_title">Гласово повикване</string>
+  <string name="volume_steps_reset">Нулиране</string>
 </resources>

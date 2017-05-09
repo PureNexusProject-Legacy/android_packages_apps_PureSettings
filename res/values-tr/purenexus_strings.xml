@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
   <string name="fprint_sucess_vib_summary">Başarılı parmak izi doğrulamada titret</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Kilit ekranı öğeleri</string>
   <string name="lockscreen_clock_title">Kilit ekranı saati</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
   <string name="status_bar_battery_style_icon_landscape">Yatay simge</string>
   <string name="status_bar_battery_style_circle">Daire</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Yazı</string>
   <string name="status_bar_battery_style_hidden">Gizli</string>
   <!-- Battery percentage options -->

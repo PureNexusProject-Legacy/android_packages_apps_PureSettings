@@ -64,7 +64,7 @@
   <string name="advanced">Rozšířené</string>
   <string name="notification_light_use_custom">Použít vlastní hodnoty</string>
   <string name="notification_light_default_value">Výchozí</string>
-  <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+  <string name="notification_light_no_apps_summary">Chcete-li přidat ovládací prvek aplikace, aktivujte \'%1$s\' a stiskněte \'\u002b\' na panelu nabídky</string>
   <string name="allow_lights_title">Notifikační dioda v tichém režimu</string>
   <string name="notification_light_screen_on">Světla při zapnuté obrazovce</string>
   <!-- Three finger swipe screenshot -->
@@ -84,11 +84,14 @@
   <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
   <string name="unlock_scramble_pin_layout_summary">Přeházet pozice tlačítek při odemykání obrazovky</string>
   <!-- Pin ripple -->
-  <string name="lockscreen_pin_ripple_title">Lock screen pin ripple</string>
-  <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
+  <string name="lockscreen_pin_ripple_title">Zvlnění při uzamčení obrazovky</string>
+  <string name="lockscreen_pin_ripple_summary">Zakázat odstranění zvlnění při zadání PINu</string>
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrace při načtení otisku prstu</string>
   <string name="fprint_sucess_vib_summary">Vibrace při úspěšném ověření otisku prstu</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Položky na uzamčené obrazovce</string>
   <string name="lockscreen_clock_title">Hodiny na uzamčené obrazovce</string>
@@ -125,336 +128,337 @@
   <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
   <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
   <!-- Miscellaneous fragment -->
-  <string name="misc_settings_title">Miscellaneous</string>
+  <string name="misc_settings_title">Různé</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Toast icon</string>
-  <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+  <string name="toast_icon_title">Ikona Toast</string>
+  <string name="toast_icon_summary">Zobrazit ikonu aplikace v oznámení Toast</string>
   <!-- Scrolling Cache -->
-  <string name="pref_scrollingcache_title">Scrolling cache</string>
-  <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-  <string name="pref_scrollingcache_force_enable">Force enable</string>
-  <string name="pref_scrollingcache_default_enable">Default enable</string>
-  <string name="pref_scrollingcache_default_disable">Default disable</string>
-  <string name="pref_scrollingcache_force_disable">Force disable</string>
+  <string name="pref_scrollingcache_title">Mezipaměť rolování</string>
+  <string name="pref_scrollingcache_summary">Mezipaměť rolování může zlepšit výkon na úkor úbytku paměti</string>
+  <string name="pref_scrollingcache_force_enable">Vynuceně povolit</string>
+  <string name="pref_scrollingcache_default_enable">Povolit výchozí</string>
+  <string name="pref_scrollingcache_default_disable">Zakázat výchozí</string>
+  <string name="pref_scrollingcache_force_disable">Vynuceně zakázat</string>
   <!-- Incall vibrate options -->
-  <string name="incall_vibration_category">In call vibration options</string>
-  <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-  <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+  <string name="incall_vibration_category">Možnosti vibrací při volání</string>
+  <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
+  <string name="incall_vibrate_call_wait_title">Vibrovat při čekání</string>
+  <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
   <!-- Navbar fragment -->
-  <string name="navbar_settings_title">Navigation bar</string>
-  <string name="navigation_bar_opt_cat">Navigation bar options</string>
-  <string name="navigation_bar_cus">Navbar customization</string>
+  <string name="navbar_settings_title">Navigační lišta</string>
+  <string name="navigation_bar_opt_cat">Možnosti navigační lišty</string>
+  <string name="navigation_bar_cus">Přizpůsobení navigační lišty</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Kill app back button</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
-  <string name="long_press_kill_delay">App kill delay</string>
+  <string name="kill_app_longpress_back">Vynucené ukončení aplikace tlačítkem Zpět</string>
+  <string name="kill_app_longpress_back_summary">Ukončit aplikaci v popředí dlouhým podržením tlačítka zpět</string>
+  <string name="long_press_kill_delay">Prodleva ukončení aplikace</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Enables the pixel navbar animation</string>
+  <string name="pixel_navbar_anim_title">Pixel animace navigační lišty</string>
+  <string name="pixel_navbar_anim_summary">Povolit Pixel animace navigační lišty</string>
   <!-- Navbar toggle -->
-  <string name="navbar_enable_bar">Enable</string>
+  <string name="navbar_enable_bar">Povolit</string>
   <!-- Navbar Dimensions -->
-  <string name="navbar_dimensions_title">Navbar dimensions</string>
-  <string name="navigation_bar_height_title">Navigation bar height</string>
-  <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
+  <string name="navbar_dimensions_title">Rozměry navigační lišty</string>
+  <string name="navigation_bar_height_title">Výška navigační lišty</string>
+  <string name="navigation_bar_height_landscape_title">Výška navigační lišty v režimu na šířku</string>
+  <string name="navigation_bar_width_title">Šířka navigační lišty</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <string name="navigation_bar_size_52_dp">52 dp</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (výchozí)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
-  <string name="navigation_bar_size_0_dp">0 dp (off)</string>
+  <string name="navigation_bar_size_0_dp">0 dp (vypnuto)</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navbar tuner</string>
-  <string name="navbar_tuner_summary">Customize buttons and layout</string>
+  <string name="navbar_tuner_title">Modifikace navigační lišty</string>
+  <string name="navbar_tuner_summary">Přizpůsobení tlačítek a rozložení</string>
   <!-- One handed mode -->
-  <string name="one_handed_mode_title">One handed mode</string>
-  <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+  <string name="one_handed_mode_title">Režim jedné ruky</string>
+  <string name="one_handed_mode_summary">Přejetím přes navigační lištu zapnout režim jedné ruky</string>
   <!-- Navbar double tap to sleep -->
-  <string name="double_tap_sleep_nav_bar_title">Double tap to sleep</string>
-  <string name="double_tap_sleep_nav_bar_summary">Double tap on the navigation bar to put the device to sleep</string>
+  <string name="double_tap_sleep_nav_bar_title">Dvojím klepnutím uspat</string>
+  <string name="double_tap_sleep_nav_bar_summary">Dvojím poklepáním na navigační lištu přepnout zařízení do režimu spánku</string>
   <!-- Notification drawer fragment -->
-  <string name="notification_drawer_settings_title">Notification drawer</string>
-  <string name="notification_panel_title">Notification panel</string>
-  <string name="qs_panel_title">Quick settings panel</string>
+  <string name="notification_drawer_settings_title">Panel upozornění</string>
+  <string name="notification_panel_title">Panel upozornění</string>
+  <string name="qs_panel_title">Panel rychlého nastavení</string>
   <!-- QS easy toggles -->
-  <string name="qs_easy_toggle_title">Advanced quick setting easy toggle</string>
-  <string name="qs_easy_toggle_summary">One tap action to toggle bluetooth, data, or wifi</string>
+  <string name="qs_easy_toggle_title">Snadné přepnutí rozšíření rychlého nastavení</string>
+  <string name="qs_easy_toggle_summary">Jedním klepnutím přepnout bluetooth, data nebo WiFi</string>
   <!-- qs brightness slider -->
-  <string name="qs_brightness_slider_title">Brightness slider</string>
-  <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
+  <string name="qs_brightness_slider_title">Posuvník jasu</string>
+  <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down quick settings</string>
-  <string name="quick_pulldown_summary_always">Always show quick settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">Rychlé vysunutí nabídky</string>
+  <string name="quick_pulldown_summary">%1$s okraj stavového řádku vysune nabídku rychlého nastavení</string>
+  <string name="quick_pulldown_summary_always">Vždy zobrazit rychlé nastavení při stažení stavové lišty</string>
+  <string name="quick_pulldown_off">Vypnuto</string>
+  <string name="quick_pulldown_left">Vlevo</string>
+  <string name="quick_pulldown_right">Vpravo</string>
+  <string name="quick_pulldown_always">Vždy</string>
   <!-- Quicks settings columns -->
-  <string name="qs_columns_title">Number of tiles in column</string>
-  <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
-  <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+  <string name="qs_columns_title">Počet dlaždic ve sloupci</string>
+  <string name="qs_rows_portrait_title">Počet řádků (na výšku)</string>
+  <string name="qs_rows_landscape_title">Počet řádků (na šířku)</string>
   <!-- Quicks settings titles -->
-  <string name="qs_tile_title_visibility_title">Quick settings titles</string>
-  <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
+  <string name="qs_tile_title_visibility_title">Přepínač režimu \"Nerušit\"</string>
+  <string name="qs_tile_title_visibility_summary">Povolit dlaždice v rychlém nastavení</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
+  <string name="quick_settings_vibrate_summary">Vibrovat při dotyku dlaždice</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">No notifications</string>
-  <string name="smart_pulldown_dismissable">No dismissable</string>
-  <string name="smart_pulldown_ongoing">No ongoing</string>
+  <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
+  <string name="smart_pulldown_summary">Otevřít nabídku rychlého nastavení, když je přítomno %1$s upozornění</string>
+  <string name="smart_pulldown_none_summary">Otevřít nabídku rychlého nastavení, když neexistují žádná upozornění</string>
+  <string name="smart_pulldown_off">Vypnuto</string>
+  <string name="smart_pulldown_none">Žádná oznámení</string>
+  <string name="smart_pulldown_dismissable">Žádné zrušitelné</string>
+  <string name="smart_pulldown_ongoing">Žádné probíhající</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
+  <string name="lockscreen_qs_disabled_title">Zakázat rychlá nastavení</string>
+  <string name="lockscreen_qs_disabled_summary">Zakázat rychlé nastavení na zabezpečené zamykací obrazovce</string>
   <!-- QS headers -->
-  <string name="qs_header_category">Quick settings header</string>
-  <string name="status_bar_custom_header_title">Custom header image</string>
-  <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+  <string name="qs_header_category">Záhlaví rychlého nastavení</string>
+  <string name="status_bar_custom_header_title">Vlastní obrázek záhlaví</string>
+  <string name="status_bar_custom_header_summary">Povolit obrázek na pozadí panelu upozornění</string>
+  <string name="daylight_header_pack_title">Balík obrázků záhlaví</string>
+  <string name="status_bar_custom_header_shadow_title">Stín obrázků záhlaví</string>
+  <string name="status_bar_custom_header_shadow_summary">Pro lepší viditelnost na jasných snímcích</string>
+  <string name="static_header_provider_title">Statický</string>
+  <string name="daylight_header_provider_title">Dynamický</string>
+  <string name="custom_header_provider_title">Poskytovatel v záhlaví</string>
+  <string name="custom_header_browse_title">Procházet nainstalované záhlaví</string>
+  <string name="custom_header_browse_summary">Dlouhým stiskem na jakémkoli obrázku jej použijte pro statický režim</string>
   <!-- Notification & Media fragment -->
-  <string name="notification_media_settings_title">Media &amp; notifications</string>
-  <string name="media_cat_title">Media options</string>
-  <string name="notif_cat_title">Notification options</string>
+  <string name="notification_media_settings_title">Média &amp; oznámení</string>
+  <string name="media_cat_title">Možnosti médií</string>
+  <string name="notif_cat_title">Možnosti oznámení</string>
   <!-- Power notification controls -->
-  <string name="power_notification_title">Power notification controls</string>
-  <string name="power_notification_summary">Advanced notification controls and information</string>
+  <string name="power_notification_title">Ovládací prvky Napájení</string>
+  <string name="power_notification_summary">Pokročilé nastavení oznámení a informací</string>
   <!-- low battery notification toggle -->
-  <string name="battery_low_notif_title">Low battery notification</string>
-  <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+  <string name="battery_low_notif_title">Upozornění na nízký stav baterie</string>
+  <string name="battery_low_notif_summary">Zobrazit oznámení o nízkém stavu baterie pokud je povoleno</string>
   <!-- double tap power button vibration -->
-  <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
-  <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
+  <string name="dbl_tap_vib_title">Dvojí klepnutí na tlačítko Vypnout zapne vibrace při spuštění fotoaparátu</string>
+  <string name="dbl_tap_vib_summary">Vibrovat při dvojím klepnutím na tlačítko Vypnout pokud je povoleno</string>
   <!-- Heads up settings -->
-  <string name="headsup_settings_title">Peeking notifications</string>
-  <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
-  <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop up window on your screen, enable Peeking notifications.</string>
+  <string name="headsup_settings_title">Prohlížení oznámení</string>
+  <string name="summary_heads_up_enabled">Prohlížení oznámení je povoleno</string>
+  <string name="summary_heads_up_disabled">Prohlížení oznámení je zakázáno</string>
+  <string name="heads_up_disabled_notice">Chcete-li povolit aplikacím zobrazit interaktivní oznámení ve vyskakovacím okně na obrazovce, povolte plovoucí oznámení.</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Časový limit</string>
+  <string name="heads_up_time_out_summary">Prohlížení oznámení se zobrazí na <xliff:g id="number">%d</xliff:g> sekund</string>
+  <string name="heads_up_time_out_2sec">2 sekundy</string>
+  <string name="heads_up_time_out_4sec">4 sekundy</string>
+  <string name="heads_up_time_out_5sec">5 sekund</string>
+  <string name="heads_up_time_out_6sec">6 sekund</string>
+  <string name="heads_up_time_out_8sec">8 sekund</string>
+  <string name="heads_up_time_out_10sec">10 sekund</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_3min">3 minutes</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Časovač odložení</string>
+  <string name="heads_up_snooze_summary_one_minute">Potáhnutím nahoru dojde k odložení plovoucího oznámení po dobu 1 minuty</string>
+  <string name="heads_up_snooze_summary">Potáhnutím nahoru dojde k odložení plovoucího oznámení po dobu <xliff:g id="number">%d</xliff:g> minut</string>
+  <string name="heads_up_snooze_disabled_summary">Časovač odložení je vypnut</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_3min">3 minuty</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Power Menu fragment -->
-  <string name="powermenu_settings_title">Power menu</string>
-  <string name="power_category">Power menu options</string>
-  <string name="actions_category">Power menu items</string>
+  <string name="powermenu_settings_title">Nabídka tlačítka Vypnout</string>
+  <string name="power_category">Možnosti tlačítka Vypnout</string>
+  <string name="actions_category">Položky tlačítka Vypnout</string>
   <!-- Power menu customization -->
-  <string name="power_menu_reboot_title">Reboot</string>
-  <string name="power_menu_screenshot_title">Screenshot</string>
-  <string name="power_menu_screenrecord_title">Screen record</string>
-  <string name="power_menu_torch_title">Flashlight</string>
-  <string name="power_menu_airplane_title">Airplane mode</string>
-  <string name="power_menu_users_title">User switcher</string>
-  <string name="power_menu_search_title">Search</string>
-  <string name="power_menu_voice_title">Voice search</string>
-  <string name="power_menu_settings_title">Settings shortcut</string>
-  <string name="power_menu_lockdown_title">Device lockdown</string>
-  <string name="power_menu_bug_report_title">Bug report</string>
-  <string name="power_menu_sound_title">Sound panel</string>
-  <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+  <string name="power_menu_reboot_title">Restart</string>
+  <string name="power_menu_screenshot_title">Snímek obrazovky</string>
+  <string name="power_menu_screenrecord_title">Záznam obrazovky</string>
+  <string name="power_menu_torch_title">Svítilna</string>
+  <string name="power_menu_airplane_title">Režim V letadle</string>
+  <string name="power_menu_users_title">Přepnutí uživatele</string>
+  <string name="power_menu_search_title">Vyhledávání</string>
+  <string name="power_menu_voice_title">Hlasové vyhledávání</string>
+  <string name="power_menu_settings_title">Zástupce nastavení</string>
+  <string name="power_menu_lockdown_title">Uzamčení zařízení</string>
+  <string name="power_menu_bug_report_title">Hlášení chyb</string>
+  <string name="power_menu_sound_title">Panel hlasitosti</string>
+  <string name="power_menu_bug_report_disabled">Hlášení chyb je zakázáno ve vývojářském nastavení</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
+  <string name="lockscreen_enable_power_menu_title">Zobrazit nabídku tlačítka napájení na zabezpečené zamykací obrazovce</string>
   <!-- Recent Apps fragment -->
-  <string name="recent_settings_title">Recent apps</string>
+  <string name="recent_settings_title">Nedávné aplikace</string>
   <!-- Recent clear all button and location -->
-  <string name="show_clear_all_recents_button_title">Clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary_on">Zobrazit tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary_off">Zobrazit AOSP tlačítko \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_title">Umístění tlačítka \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+  <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
+  <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+  <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
+  <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
   <!-- Immersive recents -->
-  <string name="immersive_recents_title">Immersive recents</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Status bar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Pohlcující Nedávné</string>
+  <string name="immersive_recents_default">Výchozí</string>
+  <string name="immersive_recents_fullscreen">Celá obrazovka</string>
+  <string name="immersive_recents_statusbar">Pouze stavová lišta</string>
+  <string name="immersive_recents_navbar">Pouze navigační lišta</string>
   <!-- StatusBar fragment -->
-  <string name="statusbar_settings_title">Status bar</string>
+  <string name="statusbar_settings_title">Stavová lišta</string>
   <!-- Battery settings -->
-  <string name="battery_settings_title">Battery settings</string>
-  <string name="battery_settings_summary">Custom battery &amp; batterybar options</string>
-  <string name="status_bar_battery_title">Battery icon</string>
+  <string name="battery_settings_title">Nastavení baterie</string>
+  <string name="battery_settings_summary">Vlastní styl baterie &amp; možnosti pruhu baterie</string>
+  <string name="status_bar_battery_title">Ikona baterie</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar location</string>
-  <string name="battery_bar_color">Battery bar color</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hide</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navbar</string>
-  <string name="battery_bar_bottomnav">Bottom of navbar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center mirrored</string>
+  <string name="battery_bar_title">Pruh baterie</string>
+  <string name="battery_bar_location">Pozice pruhu baterie</string>
+  <string name="battery_bar_color">Barva pruhu baterie</string>
+  <string name="battery_bar_style_title">Styl pruhu baterie</string>
+  <string name="battery_bar_thickness_title">Tloušťka pruhu baterie</string>
+  <string name="battery_bar_animate_title">Animace nabíjení</string>
+  <string name="battery_bar_animate_summary">Animace nabíjení může mít za následek špatné uživatelské zkušenosti. Povolení je na vlastním uvážení.</string>
+  <string name="battery_bar_hide">Skrýt</string>
+  <string name="battery_bar_statusbar">Stavová lišta</string>
+  <string name="battery_bar_topnav">V horní části navigační lišty</string>
+  <string name="battery_bar_bottomnav">V dolní části navigační lišty</string>
+  <string name="battery_bar_reg">Normální</string>
+  <string name="battery_bar_center">Zrcadlově na střed</string>
   <!-- Battery icon options -->
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
+  <string name="status_bar_battery_style_title">Indikátor stavu baterie</string>
+  <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
+  <string name="status_bar_battery_style_icon_landscape">Ikona na šířku</string>
+  <string name="status_bar_battery_style_circle">Kruh</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_hidden">Skryté</string>
   <!-- Battery percentage options -->
-  <string name="status_bar_battery_percentage_title">Show battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Zobrazit procenta baterie</string>
+  <string name="status_bar_battery_percentage_default">Skryté</string>
+  <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+  <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
   <!-- Battery Tile style -->
-  <string name="status_bar_battery_style_tile_title">Battery tile style</string>
-  <string name="status_bar_battery_style_tile_summary">Sync the same icon style chosen for the statusbar battery</string>
+  <string name="status_bar_battery_style_tile_title">Styl dlaždice baterie</string>
+  <string name="status_bar_battery_style_tile_summary">Nastavit stejný styl ikony baterie ve stavové liště</string>
   <!-- Brightness control -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- statusbar icon blacklist -->
-  <string name="status_bar_icon_blacklist_title">Status bar icons</string>
-  <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+  <string name="status_bar_icon_blacklist_title">Ikony stavové lišty</string>
+  <string name="status_bar_icon_blacklist_summary">Nastavit, jaké ikony jsou zobrazeny na stavové liště</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Carrier label</string>
-  <string name="carrier_label_settings_summary">Customize the carrier label</string>
-  <string name="custom_carrier_label_title">Custom carrier label</string>
-  <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-  <string name="custom_carrier_label_notset">Custom label currently not set</string>
-  <string name="show_carrier_title">Carrier label</string>
-  <string name="show_carrier_disabled">Disabled</string>
-  <string name="show_carrier_keyguard">Lock screen only</string>
-  <string name="show_carrier_statusbar">Status bar only</string>
-  <string name="show_carrier_enabled">Lock screen &amp; status bar</string>
+  <string name="carrier_label_settings_title">Název mobilní sítě</string>
+  <string name="carrier_label_settings_summary">Přizpůsobit název mobilní sítě</string>
+  <string name="custom_carrier_label_title">Vlastní název mobilní sítě</string>
+  <string name="custom_carrier_label_explain">Zadejte prosím nový název. Nechte prázdné pro navrácení k původnímu.</string>
+  <string name="custom_carrier_label_notset">Vlastní název není nastaven</string>
+  <string name="show_carrier_title">Název mobilní sítě</string>
+  <string name="show_carrier_disabled">Vypnuto</string>
+  <string name="show_carrier_keyguard">Pouze na zamčené obrazovce</string>
+  <string name="show_carrier_statusbar">Pouze na stavové liště</string>
+  <string name="show_carrier_enabled">Zamykací obrazovka &amp; stavová lišta</string>
   <!-- Clock settings -->
-  <string name="clock_settings_title">Clock settings</string>
-  <string name="clock_settings_summary">Custom clock and date options</string>
+  <string name="clock_settings_title">Nastavení hodin</string>
+  <string name="clock_settings_summary">Vlastní možnosti data a hodin</string>
   <!-- clock date options -->
-  <string name="clock_title_enable">Alignment</string>
-  <string name="status_bar_show_clock_title">Show clock and date</string>
-  <string name="status_bar_clock_seconds_title">Show seconds</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24 hour clock is enabled</string>
-  <string name="right_clock">Right clock</string>
-  <string name="center_clock">Center clock</string>
-  <string name="left_clock">Left clock</string>
-  <string name="clock_date_display">Date</string>
-  <string name="clock_date_style">Date style</string>
-  <string name="clock_date_position">Date position</string>
-  <string name="clock_date_format">Date format</string>
-  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Enter string</string>
-  <string name="clock_date_right">Right of time</string>
-  <string name="clock_date_left">Left of time</string>
-  <string name="clock_am_pm_date_normal">Normal</string>
-  <string name="clock_am_pm_date_small">Small</string>
-  <string name="clock_am_pm_date_none">Hidden</string>
-  <string name="clock_date_style_lowercase">Lowercase</string>
-  <string name="clock_date_style_uppercase">Uppercase</string>
-  <string name="clock_date_format_custom">Custom java format</string>
+  <string name="clock_title_enable">Zarovnání</string>
+  <string name="status_bar_show_clock_title">Zobrazit datum a čas</string>
+  <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
+  <string name="status_bar_am_pm_title">DOP/ODP</string>
+  <string name="status_bar_am_pm_info">24 hodinový formát je povolen</string>
+  <string name="right_clock">Hodiny vpravo</string>
+  <string name="center_clock">Hodiny uprostřed</string>
+  <string name="left_clock">Hodiny vlevo</string>
+  <string name="clock_date_display">Datum</string>
+  <string name="clock_date_style">Styl data</string>
+  <string name="clock_date_position">Pozice data</string>
+  <string name="clock_date_format">Formát data</string>
+  <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Vložte textový řetězec</string>
+  <string name="clock_date_right">Vpravo od času</string>
+  <string name="clock_date_left">Vlevo od času</string>
+  <string name="clock_am_pm_date_normal">Normální</string>
+  <string name="clock_am_pm_date_small">Malé</string>
+  <string name="clock_am_pm_date_none">Skryté</string>
+  <string name="clock_date_style_lowercase">Malá písmena</string>
+  <string name="clock_date_style_uppercase">Velká písmena</string>
+  <string name="clock_date_format_custom">Vlastní formát java</string>
   <!-- double tap statusbar to sleep -->
-  <string name="double_tap_to_sleep_title">Double tap to sleep</string>
-  <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+  <string name="double_tap_to_sleep_title">Dvojím klepnutím uspat</string>
+  <string name="double_tap_to_sleep_summary">Dvojím poklepáním na stavovou lištu přepnout zařízení do režimu spánku</string>
   <!-- Network traffic Settings -->
-  <string name="nettraffic_settings_title">Network traffic</string>
-  <string name="nettraffic_settings_summary">Network traffic options</string>
+  <string name="nettraffic_settings_title">Síťový provoz</string>
+  <string name="nettraffic_settings_summary">Možnosti provozu sítě</string>
   <!-- Network traffic options -->
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="show_network_traffic_state">Zobrazení síťového provozu na stavové liště</string>
+  <string name="show_network_traffic_unit">Zobrazit jednotky</string>
+  <string name="show_network_traffic_frequency">Interval aktualizace</string>
+  <string name="show_network_traffic_disable">Vypnuto</string>
+  <string name="show_network_traffic_up">Odchozí</string>
+  <string name="show_network_traffic_down">Příchozí</string>
+  <string name="show_network_traffic_all">Odchozí a příchozí</string>
+  <string name="show_network_traffic_bit">Bitů za sekundu</string>
+  <string name="show_network_traffic_byte">Bajtů za sekundu</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+  <string name="network_traffic_autohide">Automaticky skrývat</string>
+  <string name="network_traffic_autohide_summary">Skrytí nástroje sledování provozu, pokud neprobíhá žádná aktivita</string>
+  <string name="network_traffic_autohide_threshold">Práh nečinnosti</string>
+  <string name="network_traffic_hidearrow">Skrýt šipky</string>
+  <string name="network_traffic_hidearrow_summary">Skrýt šipky datového provozu</string>
   <!-- Notification count -->
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+  <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
+  <string name="status_bar_notif_count_summary">Zobrazovat počet čekajících upozornění</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
-  <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+  <string name="bluetooth_battery_title">Zobrazit stav baterie zařízení Bluetooth</string>
+  <string name="bluetooth_battery_summary">Zobrazit stav baterie aktuálně připojeného bluetooth zařízení, je-li k dispozici.</string>
   <!-- Volume Rocker fragment -->
-  <string name="volumerocker_settings_title">Volume rocker</string>
+  <string name="volumerocker_settings_title">Tlačítko hlasitosti</string>
   <!-- Volume button wake -->
-  <string name="volbtn_wake_device_title">Volume button wake</string>
-  <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+  <string name="volbtn_wake_device_title">Probudit tlačítkem hlasitosti</string>
+  <string name="button_wake_summary">Nemůže probudit zařízení, když je aktivní ovládání hudby při přehrávání</string>
   <!-- Volume button track change -->
-  <string name="volbtn_music_controls_title">Music control</string>
-  <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
+  <string name="volbtn_music_controls_title">Ovládání hudby</string>
+  <string name="volbtn_music_controls_summary">Když je obrazovka vypnutá, dlouhé stlačení tlačítka hlasitosti bude vyhledávat hudební skladby</string>
   <!-- Volume key cursor control -->
-  <string name="volbtn_cursor_control_title">Volume key cursor control</string>
-  <string name="volbtn_cursor_control_off">Disabled</string>
-  <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-  <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+  <string name="volbtn_cursor_control_title">Ovládání kurzoru tlačítky hlasitosti</string>
+  <string name="volbtn_cursor_control_off">Vypnuto</string>
+  <string name="volbtn_cursor_control_on">Hlasitost nahoru/dolů posune kurzorem vlevo/vpravo</string>
+  <string name="volbtn_cursor_control_on_reverse">Hlasitost nahoru/dolů posune kurzorem vpravo/vlevo</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-  <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+  <string name="volume_keys_control_media_stream_title">Tlačítka hlasitosti ovládají hlasitost médií</string>
+  <string name="volume_keys_control_media_stream_summary">Tlačítka hlasitosti k ovládání streamování médií</string>
   <!-- Volume key orientation swap -->
-  <string name="swap_volume_buttons_title">Volume button swap</string>
-  <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>
+  <string name="swap_volume_buttons_title">Prohození tlačítek hlasitosti</string>
+  <string name="swap_volume_buttons_summary">Přehození tlačítek hlasitosti v závislosti na orientaci zařízení</string>
   <!-- Volume down enter do not disturb -->
-  <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
-  <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
+  <string name="volbtn_down_zen_title">Tlačítko hlasitosti dolů zapne režim Nerušit</string>
+  <string name="volbtn_down_zen_summary">Umožní tlačítku hlasitosti dolů povolit režim Nerušit</string>
   <!-- Volume up exit do not disturb -->
-  <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
-  <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
+  <string name="volbtn_up_zen_title">Zvýšení hlasitosti v režimu Nerušit</string>
+  <string name="volbtn_up_zen_summary">Umožní zvýšit hlasitost a ukončit režim Nerušit</string>
   <!-- Volume do not disturb switch -->
-  <string name="vol_zen_title">Do not disturb switch</string>
-  <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
+  <string name="vol_zen_title">Přepínač režimu \"Nerušit\"</string>
+  <string name="vol_zen_summary">Zobrazit přepínač \"Nerušit\" v panelu hlasitosti</string>
   <!-- Screen record chord behavior -->
-  <string name="screen_record_chord_title">Power + volume up behavior</string>
-  <string name="screen_record_chord_screenrecord">Start screen recording</string>
-  <string name="screen_record_chord_selscreenshot">Take screenshot of selectable area</string>
+  <string name="screen_record_chord_title">Chování tlačítka Napájení + hlasitost nahoru</string>
+  <string name="screen_record_chord_screenrecord">Zahájit nahrávání obrazovky</string>
+  <string name="screen_record_chord_selscreenshot">Snímek vybrané oblasti obrazovky</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Volume steps</string>
-  <string name="volume_steps_summary">Customize volume steps</string>
-  <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-  <string name="volume_steps_music_title">Volume steps: Media</string>
-  <string name="volume_steps_notification_title">Volume steps: Notification</string>
-  <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-  <string name="volume_steps_system_title">Volume steps: System</string>
-  <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-  <string name="volume_steps_reset">Reset</string>
+  <string name="volume_steps_title">Kroky hlasitosti</string>
+  <string name="volume_steps_summary">Přizpůsobit kroky hlasitosti</string>
+  <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+  <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
+  <string name="volume_steps_music_title">Kroky hlasitosti: Média</string>
+  <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornění</string>
+  <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
+  <string name="volume_steps_system_title">Kroky hlasitosti: Systém</string>
+  <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+  <string name="volume_steps_reset">Obnovit</string>
 </resources>

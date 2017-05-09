@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指紋認証によるバイブレーション</string>
   <string name="fprint_sucess_vib_summary">指紋認証の成功時に振動させます</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">ロック画面の項目</string>
   <string name="lockscreen_clock_title">ロック画面上の時計</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">縦向きアイコン</string>
   <string name="status_bar_battery_style_icon_landscape">横向きアイコン</string>
   <string name="status_bar_battery_style_circle">サークル</string>
+  <string name="status_bar_battery_style_solid">Solid circle</string>
   <string name="status_bar_battery_style_text">文字</string>
   <string name="status_bar_battery_style_hidden">非表示</string>
   <!-- Battery percentage options -->

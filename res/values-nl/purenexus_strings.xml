@@ -65,7 +65,7 @@
   <string name="notification_light_use_custom">Aangepaste waarden gebruiken</string>
   <string name="notification_light_default_value">Standaard</string>
   <string name="notification_light_no_apps_summary">Om per-app beheer toe te voegen, activeer \'%1$s\' en tik \'\u002b\' op de menubalk</string>
-  <string name="allow_lights_title">Oplichten in Niet Storen modus</string>
+  <string name="allow_lights_title">Oplichten in Niet storen modus</string>
   <string name="notification_light_screen_on">Oplichten terwijl scherm aan</string>
   <!-- Three finger swipe screenshot -->
   <string name="three_finger_gesture">Drievingerige schermafbeelding</string>
@@ -89,6 +89,9 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vingerafdruk authenticatie trilling</string>
   <string name="fprint_sucess_vib_summary">Trillen bij succesvolle vingerafdruk authenticatie</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Vingerafdruk ontgrendelen</string>
+  <string name="fp_unlock_keystore_summary">Ontgrendel apparaat met vingerafdruk na herstart zonder pin/wachtwoord/patroon\nLet op: eigen risico!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Vergrendelscherm items</string>
   <string name="lockscreen_clock_title">Vergrendelscherm klok</string>
@@ -182,7 +185,7 @@
   <string name="notification_panel_title">Meldingenpaneel</string>
   <string name="qs_panel_title">Snelle Instellingen paneel</string>
   <!-- QS easy toggles -->
-  <string name="qs_easy_toggle_title">Geavanceerde Snelle Instelling snelle schakelaar</string>
+  <string name="qs_easy_toggle_title">Geavanceerde tegels snelle schakelaar</string>
   <string name="qs_easy_toggle_summary">Eén-tik actie om bluetooth, mob. gegevens, of wifi in/uit te schakelen</string>
   <!-- qs brightness slider -->
   <string name="qs_brightness_slider_title">Helderheidsschuifbalk</string>
@@ -233,8 +236,8 @@
   <string name="media_cat_title">Mediaopties</string>
   <string name="notif_cat_title">Meldingsopties</string>
   <!-- Power notification controls -->
-  <string name="power_notification_title">Powermelding beheer</string>
-  <string name="power_notification_summary">Geavanceerde meldingsbeheer en informatie</string>
+  <string name="power_notification_title">Stroom meldingenbeheer</string>
+  <string name="power_notification_summary">Geavanceerde meldingenbeheer en informatie</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Lage accu melding</string>
   <string name="battery_low_notif_summary">Lage accu melding weergeven wanneer ingeschakeld</string>
@@ -330,6 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Pictogram staand</string>
   <string name="status_bar_battery_style_icon_landscape">Pictogram liggend</string>
   <string name="status_bar_battery_style_circle">Cirkel</string>
+  <string name="status_bar_battery_style_solid">Cirkel gevuld</string>
   <string name="status_bar_battery_style_text">Tekst</string>
   <string name="status_bar_battery_style_hidden">Verborgen</string>
   <!-- Battery percentage options -->
@@ -434,14 +438,14 @@
   <string name="swap_volume_buttons_title">Volumeknoppen omdraaien</string>
   <string name="swap_volume_buttons_summary">Pas de volumeknoppen aan op basis van de schermoriëntatie</string>
   <!-- Volume down enter do not disturb -->
-  <string name="volbtn_down_zen_title">Volume omlaag in Niet Storen</string>
-  <string name="volbtn_down_zen_summary">Volume omlaag toestaan om Niet Storen modus te activeren</string>
+  <string name="volbtn_down_zen_title">Volume omlaag in Niet storen</string>
+  <string name="volbtn_down_zen_summary">Volume omlaag toestaan om Niet storen modus te activeren</string>
   <!-- Volume up exit do not disturb -->
-  <string name="volbtn_up_zen_title">Volume omhoog uit Niet Storen</string>
-  <string name="volbtn_up_zen_summary">Volume omhoog toestaan om Niet Storen modus te deactiveren</string>
+  <string name="volbtn_up_zen_title">Volume omhoog uit Niet storen</string>
+  <string name="volbtn_up_zen_summary">Volume omhoog toestaan om Niet storen modus te deactiveren</string>
   <!-- Volume do not disturb switch -->
-  <string name="vol_zen_title">Niet Storen schakelaar</string>
-  <string name="vol_zen_summary">Niet Storen schakelaar weergeven op volumepaneel</string>
+  <string name="vol_zen_title">Niet storen schakelaar</string>
+  <string name="vol_zen_summary">Niet storen schakelaar weergeven op volumepaneel</string>
   <!-- Screen record chord behavior -->
   <string name="screen_record_chord_title">Power + volume omhoog gedrag</string>
   <string name="screen_record_chord_screenrecord">Start schermopname</string>
