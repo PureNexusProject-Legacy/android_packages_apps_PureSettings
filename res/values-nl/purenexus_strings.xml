@@ -101,8 +101,8 @@
   <string name="keyguard_torch_title">Vergrendelscherm zaklamp</string>
   <string name="keyguard_torch_summary">Powerknop inhouden bij scherm uit schakelt zaklamp in</string>
   <!-- Lockscreen cover art -->
-  <string name="media_art_title">Mediaomslag afbeelding</string>
-  <string name="media_art_summary">Mediaomslag afbeelding op vergrendelscherm inschakelen</string>
+  <string name="media_art_title">Media omslagafbeelding</string>
+  <string name="media_art_summary">Media omslagafbeelding op vergrendelscherm inschakelen</string>
   <!-- Lockscreen double tap to sleep -->
   <string name="double_tap_sleep_anywhere_title">Dubbel-tik om te slapen</string>
   <string name="double_tap_sleep_anywhere_summary">Dubbel-tik het vergrendelscherm om het apparaat te doen slapen</string>
@@ -134,7 +134,7 @@
   <string name="toast_icon_summary">Toon het app-pictogram gerelateerd aan de toast</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Scrolling-cache</string>
-  <string name="pref_scrollingcache_summary">Scrollingcache kan scrollprestaties verbeteren ten koste van geheugen</string>
+  <string name="pref_scrollingcache_summary">Scrolling-cache kan scrollprestaties verbeteren ten koste van geheugen</string>
   <string name="pref_scrollingcache_force_enable">Gedwongen inschakelen</string>
   <string name="pref_scrollingcache_default_enable">Standaard inschakelen</string>
   <string name="pref_scrollingcache_default_disable">Standaard uitschakelen</string>
@@ -154,7 +154,7 @@
   <string name="long_press_kill_delay">App beëindig vertraging</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel navigatiebalkanimatie</string>
-  <string name="pixel_navbar_anim_summary">De pixel navigatiebalkanimatie inschakelen</string>
+  <string name="pixel_navbar_anim_summary">De pixel thuisknop navigatiebalkanimatie inschakelen</string>
   <!-- Navbar toggle -->
   <string name="navbar_enable_bar">Inschakelen</string>
   <!-- Navbar Dimensions -->
@@ -183,17 +183,17 @@
   <!-- Notification drawer fragment -->
   <string name="notification_drawer_settings_title">Meldingenlade</string>
   <string name="notification_panel_title">Meldingenpaneel</string>
-  <string name="qs_panel_title">Snelle Instellingen paneel</string>
+  <string name="qs_panel_title">Snelle instellingen paneel</string>
   <!-- QS easy toggles -->
   <string name="qs_easy_toggle_title">Geavanceerde tegels snelle schakelaar</string>
   <string name="qs_easy_toggle_summary">Eén-tik actie om bluetooth, mob. gegevens, of wifi in/uit te schakelen</string>
   <!-- qs brightness slider -->
   <string name="qs_brightness_slider_title">Helderheidsschuifbalk</string>
-  <string name="qs_brightness_slider_summary">Helderheidsschuifbalk in Snelle Instellingen paneel weergeven</string>
+  <string name="qs_brightness_slider_summary">Helderheidsschuifbalk in Snelle instellingen paneel weergeven</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Snel omlaag slepen</string>
-  <string name="quick_pulldown_summary">%1$srand van de statusbalk opent Snelle Instellingen</string>
-  <string name="quick_pulldown_summary_always">Altijd Snelle Instellingen weergeven bij statusbalk slepen</string>
+  <string name="quick_pulldown_summary">%1$srand van de statusbalk opent Snelle instellingen</string>
+  <string name="quick_pulldown_summary_always">Altijd Snelle instellingen weergeven bij statusbalk slepen</string>
   <string name="quick_pulldown_off">Uit</string>
   <string name="quick_pulldown_left">Linker</string>
   <string name="quick_pulldown_right">Rechter</string>
@@ -203,24 +203,24 @@
   <string name="qs_rows_portrait_title">Aantal rijen (staand)</string>
   <string name="qs_rows_landscape_title">Aantal rijen (liggend)</string>
   <!-- Quicks settings titles -->
-  <string name="qs_tile_title_visibility_title">Snelle Instellingen titels</string>
-  <string name="qs_tile_title_visibility_summary">Titels van Snelle Instellingen inschakelen</string>
+  <string name="qs_tile_title_visibility_title">Snelle instellingen titels</string>
+  <string name="qs_tile_title_visibility_summary">Titels van Snelle instellingen inschakelen</string>
   <!-- Quicks settings vibrate -->
   <string name="quick_settings_vibrate_title">Trillen bij aanraking</string>
   <string name="quick_settings_vibrate_summary">Trillen bij het aanraken van tegels</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Slim omlaag slepen</string>
-  <string name="smart_pulldown_summary">Snelle Instellingen openen wanneer er %1$s meldingen zijn</string>
-  <string name="smart_pulldown_none_summary">Snelle Instellingen openen wanneer er geen meldingen zijn</string>
+  <string name="smart_pulldown_summary">Snelle instellingen openen wanneer er %1$s meldingen zijn</string>
+  <string name="smart_pulldown_none_summary">Snelle instellingen openen wanneer er geen meldingen zijn</string>
   <string name="smart_pulldown_off">Uit</string>
   <string name="smart_pulldown_none">Geen meldingen</string>
   <string name="smart_pulldown_dismissable">Geen verwijderbare</string>
   <string name="smart_pulldown_ongoing">Geen actieve</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Snelle Instellingen uitschakelen</string>
-  <string name="lockscreen_qs_disabled_summary">Snelle Instellingen uitschakelen op beveiligd vergrendelscherm</string>
+  <string name="lockscreen_qs_disabled_title">Snelle instellingen uitschakelen</string>
+  <string name="lockscreen_qs_disabled_summary">Snelle instellingen uitschakelen op beveiligd vergrendelscherm</string>
   <!-- QS headers -->
-  <string name="qs_header_category">Snelle Instellingen header</string>
+  <string name="qs_header_category">Snelle instellingen header</string>
   <string name="status_bar_custom_header_title">Aangepaste headerafbeelding</string>
   <string name="status_bar_custom_header_summary">Meldingenpaneel headerafbeelding inschakelen</string>
   <string name="daylight_header_pack_title">Headerafbeelding collectie</string>
@@ -343,7 +343,7 @@
   <string name="status_bar_battery_percentage_text_next">Naast het pictogram</string>
   <!-- Battery Tile style -->
   <string name="status_bar_battery_style_tile_title">Accutegel stijl</string>
-  <string name="status_bar_battery_style_tile_summary">Synchr. dezelfde pictogram stijl gekozen voor de statusbalk accu</string>
+  <string name="status_bar_battery_style_tile_summary">Hetzelfde accupictogram gebruiken voor de accutegel</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Helderheidsregeling</string>
   <string name="status_bar_toggle_brightness_summary">Helderheid aanpassen door over de statusbalk te vegen</string>
@@ -394,7 +394,7 @@
   <string name="nettraffic_settings_title">Netwerkverkeer</string>
   <string name="nettraffic_settings_summary">Netwerkverkeersopties</string>
   <!-- Network traffic options -->
-  <string name="show_network_traffic_state">Statusbalk netwerkverkeer monitor</string>
+  <string name="show_network_traffic_state">Statusbalk netwerkverkeersmonitor</string>
   <string name="show_network_traffic_unit">Weergave-eenheid</string>
   <string name="show_network_traffic_frequency">Verversinterval</string>
   <string name="show_network_traffic_disable">Uitgeschakeld</string>
@@ -416,7 +416,7 @@
   <string name="status_bar_notif_count_title">Meldingsaantal weergeven</string>
   <string name="status_bar_notif_count_summary">Het aantal ongelezen meldingen weergeven</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Toon Bluetooth batterijstatus</string>
+  <string name="bluetooth_battery_title">Toon bluetooth batterijstatus</string>
   <string name="bluetooth_battery_summary">Toon batterijstatus voor het apparaat dat momenteel is gekoppeld, indien beschikbaar.</string>
   <!-- Volume Rocker fragment -->
   <string name="volumerocker_settings_title">Volumeknoppen</string>

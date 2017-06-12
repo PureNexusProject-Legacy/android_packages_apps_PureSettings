@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Vibrare autentificare amprentă</string>
   <string name="fprint_sucess_vib_summary">Vibrare la autentificare amprentă cu succes</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Deblocare cu amprentă</string>
+  <string name="fp_unlock_keystore_summary">Deblochează dispozitivul cu amprenta după repornire fară protecție PIN/parolă/model\nNotă: pe propriul risc!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Elemente ecran de blocare</string>
   <string name="lockscreen_clock_title">Ceas ecran de blocare</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
   <string name="status_bar_battery_style_icon_landscape">Pictogramă peisaj</string>
   <string name="status_bar_battery_style_circle">Cerc</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Cerc plin</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Ascuns</string>
   <!-- Battery percentage options -->

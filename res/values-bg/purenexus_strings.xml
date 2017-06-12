@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Вибрация при удостов. с пръстов отпечатък</string>
   <string name="fprint_sucess_vib_summary">Вибрация при успешно удостоверяване с пръстов отпечатък</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Отключване с пръстов отпечатък</string>
+  <string name="fp_unlock_keystore_summary">Отключване на устройството с пръстов отпечатък след рестартиране без ПИН/парола/фигура\nЗабележка: на ваш собствен риск!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Елементи на заключен екран</string>
   <string name="lockscreen_clock_title">Часовник на заключен екран</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Икона - портрет</string>
   <string name="status_bar_battery_style_icon_landscape">Икона - пейзаж</string>
   <string name="status_bar_battery_style_circle">Кръг</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Плътен кръг</string>
   <string name="status_bar_battery_style_text">Текст</string>
   <string name="status_bar_battery_style_hidden">Скрита</string>
   <!-- Battery percentage options -->

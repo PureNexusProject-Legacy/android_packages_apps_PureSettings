@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Vibration för autentisering med fingeravtryck</string>
   <string name="fprint_sucess_vib_summary">Vibrera vid lyckad identifiering av fingeravtryck</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Lås upp med fingeravläsare</string>
+  <string name="fp_unlock_keystore_summary">Lås upp enheten med fingeravtryck efter omstart utan pin/lösenord/mönster\nObs: på egen risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Låsskärmsföremål</string>
   <string name="lockscreen_clock_title">Låskärmsklocka</string>

@@ -20,12 +20,12 @@
   <string name="pure_buttons">כפתורים</string>
   <string name="pure_system">מערכת</string>
   <!-- Color picker -->
-  <string name="dialog_color_picker">Color picker</string>
+  <string name="dialog_color_picker">בוחר צבעים</string>
   <string name="press_color_to_apply">לחץ על צבע כדי להחיל</string>
-  <string name="hex">Hex:</string>
+  <string name="hex">הקסה:</string>
   <string name="hex_check_button_text">תצוגה מקדימה</string>
   <string name="hex_reset_button_text">איפוס</string>
-  <string name="longpress_info">Long press box to save color</string>
+  <string name="longpress_info">לחיצה ארוכה על התיבה לשמירת הצבע</string>
   <!-- Display fragment -->
   <string name="display_settings_title">תצוגה</string>
   <string name="display_category">אפשרויות תצוגה</string>
@@ -68,8 +68,8 @@
   <string name="allow_lights_title">תאורה במצב לא להפריע</string>
   <string name="notification_light_screen_on">תאורה כשהמסך דלוק</string>
   <!-- Three finger swipe screenshot -->
-  <string name="three_finger_gesture">Three finger screenshot</string>
-  <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
+  <string name="three_finger_gesture">שלוש אצבעות לצילום מסך</string>
+  <string name="three_finger_gesture_summary">העבר שלוש אצבעות על פני המסך כדי לצלם מסך</string>
   <!-- General strings -->
   <string name="cancel">‫בטל‬</string>
   <string name="save">שמור</string>
@@ -77,9 +77,9 @@
   <string name="add">הוסף</string>
   <string name="choose_app">בחר אפליקציה</string>
   <!-- Lockscreen Fragment -->
-  <string name="lockscreen_settings_title">Lock screen</string>
-  <string name="lockscreen_options_title">Lock screen options</string>
-  <string name="lockscreen_secure_options_title">Secure lock screen options</string>
+  <string name="lockscreen_settings_title">מסך נעילה</string>
+  <string name="lockscreen_options_title">אפשרויות מסך נעילה</string>
+  <string name="lockscreen_secure_options_title">אפשרויות מסך נעילה מאובטח</string>
   <!-- Pin scramble -->
   <string name="unlock_scramble_pin_layout_title">ערבל פריסת מספרים</string>
   <string name="unlock_scramble_pin_layout_summary">ערבל פריסת מספרים בעת ביטול הנעילה של המכשיר</string>
@@ -90,16 +90,16 @@
   <string name="fprint_sucess_vib_title">רטט אימות טביעת אצבע</string>
   <string name="fprint_sucess_vib_summary">רטוט על אימות טביעת אצבע מוצלח</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">פתיחה בטביעת אצבע</string>
+  <string name="fp_unlock_keystore_summary">פתיחת מכשיר בטביעת אצבע אחרי אתחול מחדש סיסמה/קוד/תבניתn\על אחריותך בלבד!</string>
   <!-- Lockscreen items clock, date, alarm text -->
-  <string name="lockscreen_items_settings_title">Lock screen items</string>
-  <string name="lockscreen_clock_title">Lock screen clock</string>
-  <string name="lockscreen_date_title">Lock screen date</string>
-  <string name="lockscreen_alarm_title">Lock screen alarm text</string>
+  <string name="lockscreen_items_settings_title">פריטי מסך הנעילה</string>
+  <string name="lockscreen_clock_title">שעון במסך הנעילה</string>
+  <string name="lockscreen_date_title">תאריך במסך הנעילה</string>
+  <string name="lockscreen_alarm_title">טקסט שעון מעורר במסך הנעילה</string>
   <!-- Lockscreen torch -->
-  <string name="keyguard_torch_title">Lock screen torch</string>
-  <string name="keyguard_torch_summary">Long press power button with screen off turns on torch</string>
+  <string name="keyguard_torch_title">פנס במסך הנעילה</string>
+  <string name="keyguard_torch_summary">לחיצה ארוכה על כפתור ההפעלה במסך כבוי ידליק פנס</string>
   <!-- Lockscreen cover art -->
   <string name="media_art_title">Media cover art</string>
   <string name="media_art_summary">Enable media cover art on the lock screen</string>
@@ -107,8 +107,8 @@
   <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
   <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lock screen to put the device to sleep</string>
   <!-- Lockscreen clock fonts -->
-  <string name="lock_clock_font_title">Lock screen clock font</string>
-  <string name="lock_clock_font_summary">Change the default font of the lock screen clock widget</string>
+  <string name="lock_clock_font_title">גופן שעון מסך הנעילה</string>
+  <string name="lock_clock_font_summary">שינוי גופן השעון במסך הנעילה</string>
   <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Roboto Bold</string>
   <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -140,17 +140,17 @@
   <string name="pref_scrollingcache_default_disable">Default disable</string>
   <string name="pref_scrollingcache_force_disable">Force disable</string>
   <!-- Incall vibrate options -->
-  <string name="incall_vibration_category">In call vibration options</string>
-  <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-  <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+  <string name="incall_vibration_category">אפשרויות רטט במהלך שיחה</string>
+  <string name="incall_vibrate_connect_title">רטט בעת מענה שיחה</string>
+  <string name="incall_vibrate_call_wait_title">רטט בשיחה ממתינה</string>
+  <string name="incall_vibrate_disconnect_title">רטט בעת ניתוק שיחה</string>
   <!-- Navbar fragment -->
   <string name="navbar_settings_title">סרגל הניווט</string>
-  <string name="navigation_bar_opt_cat">Navigation bar options</string>
+  <string name="navigation_bar_opt_cat">אפשרויות סרגל ניווט</string>
   <string name="navigation_bar_cus">התאמה אישית לסרגל הניווט</string>
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">סגירת אפליקצייה עם מקש חזור</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
+  <string name="kill_app_longpress_back_summary">סגור אפליקציה חזיתית בלחיצה ארוכה על מקש חזור</string>
   <string name="long_press_kill_delay">עיכוב לסגירת אפליקציה</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">אנימציית Pixel בסרגל הניווט</string>
@@ -158,7 +158,7 @@
   <!-- Navbar toggle -->
   <string name="navbar_enable_bar">הפעל</string>
   <!-- Navbar Dimensions -->
-  <string name="navbar_dimensions_title">Navbar dimensions</string>
+  <string name="navbar_dimensions_title">מידות סרגל הניווט</string>
   <string name="navigation_bar_height_title">גובה סרגל הניווט</string>
   <string name="navigation_bar_height_landscape_title">גובה סרגל הניווט בתצוגה מאוזנת</string>
   <string name="navigation_bar_width_title">רוחב סרגל הניווט</string>
@@ -173,9 +173,9 @@
   <string name="navigation_bar_size_0_dp">0 dp (מושבת)</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navbar tuner</string>
-  <string name="navbar_tuner_summary">Customize buttons and layout</string>
+  <string name="navbar_tuner_summary">התאמה אישית של תצוגה וכפתורים</string>
   <!-- One handed mode -->
-  <string name="one_handed_mode_title">One handed mode</string>
+  <string name="one_handed_mode_title">מצב שליטה חד ידני</string>
   <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
   <!-- Navbar double tap to sleep -->
   <string name="double_tap_sleep_nav_bar_title">Double tap to sleep</string>
@@ -233,14 +233,14 @@
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; notifications</string>
-  <string name="media_cat_title">Media options</string>
+  <string name="media_cat_title">אפשרויות מדיה</string>
   <string name="notif_cat_title">Notification options</string>
   <!-- Power notification controls -->
   <string name="power_notification_title">Power notification controls</string>
-  <string name="power_notification_summary">Advanced notification controls and information</string>
+  <string name="power_notification_summary">בקרה מתקדמת בהודעות ומידע</string>
   <!-- low battery notification toggle -->
-  <string name="battery_low_notif_title">Low battery notification</string>
-  <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+  <string name="battery_low_notif_title">התראת סוללה חלשה</string>
+  <string name="battery_low_notif_summary">הצג התראה כאשר הסוללה חלשה</string>
   <!-- double tap power button vibration -->
   <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
   <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
@@ -270,7 +270,7 @@
   <string name="heads_up_snooze_15min">15 דקות</string>
   <string name="heads_up_snooze_20min">20 דקות</string>
   <!-- Power Menu fragment -->
-  <string name="powermenu_settings_title">Power menu</string>
+  <string name="powermenu_settings_title">תפריט כיבוי</string>
   <string name="power_category">אפשרויות תפריט כפתור הפעלה</string>
   <string name="actions_category">פריטי תפריט כפתור הפעלה</string>
   <!-- Power menu customization -->
@@ -290,7 +290,7 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_enable_power_menu_title">הצג תפריט כפתור הפעלה במסך נעילה מאובטח</string>
   <!-- Recent Apps fragment -->
-  <string name="recent_settings_title">Recent apps</string>
+  <string name="recent_settings_title">אפליקציות אחרונות</string>
   <!-- Recent clear all button and location -->
   <string name="show_clear_all_recents_button_title">Clear all FAB</string>
   <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
@@ -304,8 +304,8 @@
   <string name="recents_clear_all_location_bottom_center">Bottom center</string>
   <!-- Immersive recents -->
   <string name="immersive_recents_title">Immersive recents</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
+  <string name="immersive_recents_default">ברירת מחדל</string>
+  <string name="immersive_recents_fullscreen">מסך מלא</string>
   <string name="immersive_recents_statusbar">Status bar only</string>
   <string name="immersive_recents_navbar">Navbar only</string>
   <!-- StatusBar fragment -->
@@ -329,18 +329,18 @@
   <string name="battery_bar_reg">Regular</string>
   <string name="battery_bar_center">Center mirrored</string>
   <!-- Battery icon options -->
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_title">סגנון חיווי סוללה</string>
+  <string name="status_bar_battery_style_icon_portrait">סמל במצב אנכי</string>
+  <string name="status_bar_battery_style_icon_landscape">סמל במצב אופקי</string>
+  <string name="status_bar_battery_style_circle">עיגול</string>
+  <string name="status_bar_battery_style_solid">עיגול מוצק</string>
+  <string name="status_bar_battery_style_text">טקסט</string>
+  <string name="status_bar_battery_style_hidden">מוסתר</string>
   <!-- Battery percentage options -->
-  <string name="status_bar_battery_percentage_title">Show battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">הצג את אחוז סוללה</string>
+  <string name="status_bar_battery_percentage_default">מוסתר</string>
+  <string name="status_bar_battery_percentage_text_inside">בתוך הסמל</string>
+  <string name="status_bar_battery_percentage_text_next">ליד הסמל</string>
   <!-- Battery Tile style -->
   <string name="status_bar_battery_style_tile_title">Battery tile style</string>
   <string name="status_bar_battery_style_tile_summary">Sync the same icon style chosen for the statusbar battery</string>

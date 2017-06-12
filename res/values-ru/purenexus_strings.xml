@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Вибрировать при аутентификации по отпечатку пальца</string>
   <string name="fprint_sucess_vib_summary">Вибрировать при успешной аутентификации по отпечатку пальца</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Разблокировка отпечатком пальца</string>
+  <string name="fp_unlock_keystore_summary">Разблокировать устройство после перезагрузки без PIN/Пароля/Граф. ключа\nПрим.: Используйте на свой страх и риск!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
   <string name="lockscreen_clock_title">Отображать часы</string>
@@ -172,7 +172,7 @@
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_0_dp">0 dp (выкл.)</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">NavBar тюнер</string>
+  <string name="navbar_tuner_title">Редактор панели навигации</string>
   <string name="navbar_tuner_summary">Настройка и расположение кнопок</string>
   <!-- One handed mode -->
   <string name="one_handed_mode_title">Режим одной руки</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
   <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
   <string name="status_bar_battery_style_circle">Круг</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Сплошной круг</string>
   <string name="status_bar_battery_style_text">Текст</string>
   <string name="status_bar_battery_style_hidden">Не отображать</string>
   <!-- Battery percentage options -->

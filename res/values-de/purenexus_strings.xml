@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Vibration bei Fingerabdruckauthentifizierung</string>
   <string name="fprint_sucess_vib_summary">Vibriert bei erfolgreicher Fingerabdruckauthentifizierung</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Mit Fingerabdruck entsperren</string>
+  <string name="fp_unlock_keystore_summary">Nach einem Neustart ohne PIN/Passwort/Muster mit Fingerabdruck entsperren\nNotiz: Auf eigene Gefahr benutzen!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Sperrbildschirm-Elemente</string>
   <string name="lockscreen_clock_title">Sperrbildschirm-Uhr</string>
@@ -242,13 +242,13 @@
   <string name="battery_low_notif_title">Benachrichtigung bei niedrigem Akkustand</string>
   <string name="battery_low_notif_summary">Zeige Benachrichtigung bei niedrigem Akkustand, wenn aktiviert</string>
   <!-- double tap power button vibration -->
-  <string name="dbl_tap_vib_title">Vibration bei Doppelklick auf Ein/Aus-Taste (öffnet Kamera)</string>
-  <string name="dbl_tap_vib_summary">Aktiviert die Vibration bei Doppelklick auf Ein/Aus-Taste</string>
+  <string name="dbl_tap_vib_title">Vibration bei doppeltem Drücken der Ein/Aus-Taste (öffnet Kamera)</string>
+  <string name="dbl_tap_vib_summary">Aktiviert die Vibration bei doppeltem Drücken der Ein/Aus-Taste</string>
   <!-- Heads up settings -->
   <string name="headsup_settings_title">Kurzes Einblenden</string>
   <string name="summary_heads_up_enabled">Kurzes Einblenden ist aktiviert</string>
   <string name="summary_heads_up_disabled">Kurzes Einblenden ist deaktiviert</string>
-  <string name="heads_up_disabled_notice">Kurzes Einblenden aktivieren, damit Anwendungen interaktive Benachrichtigungen in einem Popup-Fenster auf dem Bildschirm anzeigen können.</string>
+  <string name="heads_up_disabled_notice">Aktiviere kurzes Einblenden, damit Anwendungen interaktive Benachrichtigungen in einem Popup-Fenster auf dem Bildschirm anzeigen können.</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Anzeigedauer</string>
   <string name="heads_up_time_out_summary">Kurzes Einblenden wird für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Symbol Hochformat</string>
   <string name="status_bar_battery_style_icon_landscape">Symbol Querformat</string>
   <string name="status_bar_battery_style_circle">Kreis</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Gefüllter Kreis</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
   <!-- Battery percentage options -->

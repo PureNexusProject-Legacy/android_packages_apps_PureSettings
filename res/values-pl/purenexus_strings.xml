@@ -87,11 +87,11 @@
   <string name="lockscreen_pin_ripple_title">Efekt plusku przy wprowadzaniu PIN na ekranie blokady</string>
   <string name="lockscreen_pin_ripple_summary">Wyłącz, aby usunąć efekt plusku podczas wprowadzania kodu PIN</string>
   <!-- fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Wibruj podczas skanu linii papilarnych</string>
-  <string name="fprint_sucess_vib_summary">Wibruj przy pomyślnym zeskanowaniu linii papilarnych</string>
+  <string name="fprint_sucess_vib_title">Wibruj podczas skanu odcisku palca</string>
+  <string name="fprint_sucess_vib_summary">Wibruj przy pomyślnym zeskanowaniu odcisku palca</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
-  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odciska palca po restarcie bez kodu pin/hasła/wzoru\nUwaga: na własne ryzyko!</string>
+  <string name="fp_unlock_keystore_title">Odblokowanie odciskiem palca</string>
+  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie po ponownym uruchomieniu za pomocą skanu odcisku palca bez użycia kodu pin/hasła/wzoru\nUwaga: na własne ryzyko!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Elementy ekranu blokady</string>
   <string name="lockscreen_clock_title">Zegar ekranu blokady</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Pionowa ikona</string>
   <string name="status_bar_battery_style_icon_landscape">Pozioma ikona</string>
   <string name="status_bar_battery_style_circle">Okrąg</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Solidne koło</string>
   <string name="status_bar_battery_style_text">Tekst</string>
   <string name="status_bar_battery_style_hidden">Ukryta</string>
   <!-- Battery percentage options -->

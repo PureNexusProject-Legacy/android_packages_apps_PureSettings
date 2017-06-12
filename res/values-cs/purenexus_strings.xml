@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Vibrace při načtení otisku prstu</string>
   <string name="fprint_sucess_vib_summary">Vibrace při úspěšném ověření otisku prstu</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Odemčení otiskem prstu</string>
+  <string name="fp_unlock_keystore_summary">Odemknout zařízení pomocí otisku prstu po restartu bez zadání pinu/hesla/vzoru\nPoznámka: použijte na vlastní nebezpečí!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Položky na uzamčené obrazovce</string>
   <string name="lockscreen_clock_title">Hodiny na uzamčené obrazovce</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
   <string name="status_bar_battery_style_icon_landscape">Ikona na šířku</string>
   <string name="status_bar_battery_style_circle">Kruh</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Plný kruh</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Skryté</string>
   <!-- Battery percentage options -->

@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Vibrar após autenticação da impressão digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação de impressão digital for bem sucedida</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Desbloqueio pela impressão digital</string>
+  <string name="fp_unlock_keystore_summary">Desbloqueia o dispositivo com a impressão digital após a reinicialização sem necessitar de um PIN, padrão ou senha\nNota: Por sua conta e risco!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Itens da tela de bloqueio</string>
   <string name="lockscreen_clock_title">Relógio</string>
@@ -332,8 +332,8 @@
   <string name="status_bar_battery_style_title">Estilo de status da bateria</string>
   <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
   <string name="status_bar_battery_style_icon_landscape">Ícone paisagem</string>
-  <string name="status_bar_battery_style_circle">Circular</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_circle">Cículo</string>
+  <string name="status_bar_battery_style_solid">Círculo sólido</string>
   <string name="status_bar_battery_style_text">Texto</string>
   <string name="status_bar_battery_style_hidden">Oculta</string>
   <!-- Battery percentage options -->

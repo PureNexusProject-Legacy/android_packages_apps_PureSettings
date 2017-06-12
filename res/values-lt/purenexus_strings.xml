@@ -90,8 +90,8 @@
   <string name="fprint_sucess_vib_title">Pirštų atspaudų autentifikavimo vibracija</string>
   <string name="fprint_sucess_vib_summary">Vibruoti, kai sėkmingas pirštų atspaudų autentifikavimas</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Piršto antspaudo atrakinimas</string>
+  <string name="fp_unlock_keystore_summary">Atrakinti įrenginį su piršto antspaudu po paleidimo iš naujo be pin/slaptažodžio/piešinio\nPastaba: savo pačių rizika!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Užrakinimo ekrano elementai</string>
   <string name="lockscreen_clock_title">Užrakinimo ekrano laikrodis</string>
@@ -333,7 +333,7 @@
   <string name="status_bar_battery_style_icon_portrait">Stati piktograma</string>
   <string name="status_bar_battery_style_icon_landscape">Gulsčia piktograma</string>
   <string name="status_bar_battery_style_circle">Apvalus</string>
-  <string name="status_bar_battery_style_solid">Solid circle</string>
+  <string name="status_bar_battery_style_solid">Užpildytas apskritimas</string>
   <string name="status_bar_battery_style_text">Tekstas</string>
   <string name="status_bar_battery_style_hidden">Paslėptas</string>
   <!-- Battery percentage options -->
