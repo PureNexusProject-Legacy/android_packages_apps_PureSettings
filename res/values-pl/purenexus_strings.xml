@@ -89,9 +89,6 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Wibruj podczas skanu odcisku palca</string>
   <string name="fprint_sucess_vib_summary">Wibruj przy pomyślnym zeskanowaniu odcisku palca</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Odblokowanie odciskiem palca</string>
-  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie po ponownym uruchomieniu za pomocą skanu odcisku palca bez użycia kodu pin/hasła/wzoru\nUwaga: na własne ryzyko!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Elementy ekranu blokady</string>
   <string name="lockscreen_clock_title">Zegar ekranu blokady</string>

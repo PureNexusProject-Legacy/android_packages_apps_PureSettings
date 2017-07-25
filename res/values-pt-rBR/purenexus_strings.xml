@@ -62,7 +62,7 @@
   <string name="notification_light_general_title">Geral</string>
   <string name="notification_light_applist_title">Aplicativos</string>
   <string name="advanced">Avançado</string>
-  <string name="notification_light_use_custom">Usar valores personalizados</string>
+  <string name="notification_light_use_custom">Aplicativos personalizados</string>
   <string name="notification_light_default_value">Padrão</string>
   <string name="notification_light_no_apps_summary">Para adicionar o controle por aplicativo, habilite \"%1$s\" e pressione \u002b na barra de menu</string>
   <string name="allow_lights_title">Luzes no modo Não perturbe</string>
@@ -84,14 +84,11 @@
   <string name="unlock_scramble_pin_layout_title">Layout aleatório</string>
   <string name="unlock_scramble_pin_layout_summary">Misturar os números do layout PIN quando for desbloquear o dispositivo</string>
   <!-- Pin ripple -->
-  <string name="lockscreen_pin_ripple_title">Efeito de ondulação do pin</string>
-  <string name="lockscreen_pin_ripple_summary">Desabilitar para remover o efeito de ondulação ao inserir números PIN</string>
+  <string name="lockscreen_pin_ripple_title">Efeito de ondulação do PIN</string>
+  <string name="lockscreen_pin_ripple_summary">Habilita o efeito visual de ondulação ao inserir números PIN</string>
   <!-- fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Vibrar após autenticação da impressão digital</string>
+  <string name="fprint_sucess_vib_title">Vibrar após impressão digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação de impressão digital for bem sucedida</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Desbloqueio pela impressão digital</string>
-  <string name="fp_unlock_keystore_summary">Desbloqueia o dispositivo com a impressão digital após a reinicialização sem necessitar de um PIN, padrão ou senha\nNota: Por sua conta e risco!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Itens da tela de bloqueio</string>
   <string name="lockscreen_clock_title">Relógio</string>
@@ -99,12 +96,12 @@
   <string name="lockscreen_alarm_title">Alarme</string>
   <!-- Lockscreen torch -->
   <string name="keyguard_torch_title">Lanterna na tela de bloqueio</string>
-  <string name="keyguard_torch_summary">Manter o botão de energia pressionado com a tela desligada para ligar a lanterna</string>
+  <string name="keyguard_torch_summary">Mantenha o botão liga/desliga pressionado, quando a tela estiver desligada, para ligar a lanterna</string>
   <!-- Lockscreen cover art -->
   <string name="media_art_title">Arte do álbum</string>
   <string name="media_art_summary">Habilitar a arte do álbum na tela de bloqueio</string>
   <!-- Lockscreen double tap to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Toque duplo em qualquer lugar para apagar a tela</string>
+  <string name="double_tap_sleep_anywhere_title">Toque duplo para apagar a tela</string>
   <string name="double_tap_sleep_anywhere_summary">Toque duplo em qualquer lugar da tela de bloqueio para apagar a tela</string>
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Fonte do relógio na tela de bloqueio</string>
@@ -172,7 +169,7 @@
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_0_dp">0 dp (desativado)</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Personalizar barra de navegação</string>
+  <string name="navbar_tuner_title">Sintonizador da barra de navegação</string>
   <string name="navbar_tuner_summary">Personalizar botões e o layout</string>
   <!-- One handed mode -->
   <string name="one_handed_mode_title">Modo Uma Mão</string>
@@ -185,7 +182,7 @@
   <string name="notification_panel_title">Painel de notificação</string>
   <string name="qs_panel_title">Painel de configurações rápidas</string>
   <!-- QS easy toggles -->
-  <string name="qs_easy_toggle_title">Troca simplificada nas configurações rápidas</string>
+  <string name="qs_easy_toggle_title">Troca rápida nas configurações rápidas</string>
   <string name="qs_easy_toggle_summary">Ação de um toque para alternar dados, bluetooth ou Wi-Fi</string>
   <!-- qs brightness slider -->
   <string name="qs_brightness_slider_title">Controle de brilho</string>
@@ -209,13 +206,13 @@
   <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
   <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos blocos</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Puxar para baixo inteligente</string>
-  <string name="smart_pulldown_summary">Abrir configurações rápidas expandidas quando não houver notificações %1$s</string>
-  <string name="smart_pulldown_none_summary">Abra as configurações rápidas expandidas quando não houver nenhuma notificação</string>
+  <string name="smart_pulldown_title">Deslizar para baixo inteligente</string>
+  <string name="smart_pulldown_summary">Exibir as configurações rápidas expandidas quando não houver notificações %1$s</string>
+  <string name="smart_pulldown_none_summary">Exibir as configurações rápidas expandidas quando não houver nenhuma notificação</string>
   <string name="smart_pulldown_off">Desativado</string>
   <string name="smart_pulldown_none">Nenhuma notificação</string>
   <string name="smart_pulldown_dismissable">Persistentes</string>
-  <string name="smart_pulldown_ongoing">Ativas</string>
+  <string name="smart_pulldown_ongoing">Em curso</string>
   <!-- Disable Quicks settings -->
   <string name="lockscreen_qs_disabled_title">Desabilitar as configurações rápidas</string>
   <string name="lockscreen_qs_disabled_summary">Desabilita as configurações rápidas na tela de bloqueio</string>
@@ -243,7 +240,7 @@
   <string name="battery_low_notif_summary">Exibir notificação de bateria fraca quando habilitada</string>
   <!-- double tap power button vibration -->
   <string name="dbl_tap_vib_title">Vibrar ao abrir a câmera</string>
-  <string name="dbl_tap_vib_summary">Vibrar no toque duplo do botão de liga/desliga quando habilitado</string>
+  <string name="dbl_tap_vib_summary">Vibrar no toque duplo do botão liga/desliga quando habilitado</string>
   <!-- Heads up settings -->
   <string name="headsup_settings_title">Notificações flutuantes</string>
   <string name="summary_heads_up_enabled">Notificações flutuantes estão habilitadas</string>
@@ -288,7 +285,7 @@
   <string name="power_menu_sound_title">Painel de som</string>
   <string name="power_menu_bug_report_disabled">Relatório de erros está desabilitado nas configurações de desenvolvedor</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Exibir o menu de energia na tela de bloqueio</string>
+  <string name="lockscreen_enable_power_menu_title">Menu de energia na tela de bloqueio</string>
   <!-- Recent Apps fragment -->
   <string name="recent_settings_title">Aplicativos recentes</string>
   <!-- Recent clear all button and location -->
@@ -332,7 +329,7 @@
   <string name="status_bar_battery_style_title">Estilo de status da bateria</string>
   <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
   <string name="status_bar_battery_style_icon_landscape">Ícone paisagem</string>
-  <string name="status_bar_battery_style_circle">Cículo</string>
+  <string name="status_bar_battery_style_circle">Círculo</string>
   <string name="status_bar_battery_style_solid">Círculo sólido</string>
   <string name="status_bar_battery_style_text">Texto</string>
   <string name="status_bar_battery_style_hidden">Oculta</string>
@@ -343,7 +340,7 @@
   <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
   <!-- Battery Tile style -->
   <string name="status_bar_battery_style_tile_title">Estilo da bateria</string>
-  <string name="status_bar_battery_style_tile_summary">Sincronizar o mesmo estilo de ícone escolhido para a barra de status da bateria</string>
+  <string name="status_bar_battery_style_tile_summary">Usar o mesmo estilo de ícone escolhido no atalho das configurações rápidas</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Controle de brilho</string>
   <string name="status_bar_toggle_brightness_summary">Ajustar o brilho deslizando através da barra de status</string>
@@ -416,7 +413,7 @@
   <string name="status_bar_notif_count_title">Mostrar contagem de notificações</string>
   <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
+  <string name="bluetooth_battery_title">Nível de bateria do dispositivo Bluetooth</string>
   <string name="bluetooth_battery_summary">Mostrar o nível da bateria do dispositivo Bluetooth conectado atualmente, se disponível.</string>
   <!-- Volume Rocker fragment -->
   <string name="volumerocker_settings_title">Botões de volume</string>
@@ -432,33 +429,33 @@
   <string name="volbtn_cursor_control_on">Botões de volume cima/baixo movem o cursor para esquerda/direita</string>
   <string name="volbtn_cursor_control_on_reverse">Botões de volume cima/baixo movem o cursor para direita/esquerda</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Botões de volume controlam o volume de Mídia</string>
-  <string name="volume_keys_control_media_stream_summary">Forçar os botões de volume para controlar o fluxo de Mídia, em vez de Toque</string>
+  <string name="volume_keys_control_media_stream_title">Botões de volume controlam mídia</string>
+  <string name="volume_keys_control_media_stream_summary">Forçar os botões de volume para controlar o fluxo de mídia, em vez de toque</string>
   <!-- Volume key orientation swap -->
   <string name="swap_volume_buttons_title">Inverter os botões de volume</string>
   <string name="swap_volume_buttons_summary">Ajusta as ações dos botões de volume baseado na rotação em que o dispositivo se encontra</string>
   <!-- Volume down enter do not disturb -->
-  <string name="volbtn_down_zen_title">Diminuir o volume até modo Não perturbe</string>
+  <string name="volbtn_down_zen_title">Diminuir volume até modo Não perturbe</string>
   <string name="volbtn_down_zen_summary">Permitir que o botão de volume para baixo entre em modo Não pertube</string>
   <!-- Volume up exit do not disturb -->
-  <string name="volbtn_up_zen_title">Aumentar volume para sair do Não pertube</string>
+  <string name="volbtn_up_zen_title">Aumentar volume para sair do Não perturbe</string>
   <string name="volbtn_up_zen_summary">Permitir que o botão de volume para cima saia do modo Não pertube</string>
   <!-- Volume do not disturb switch -->
-  <string name="vol_zen_title">Interruptor não perturbe</string>
+  <string name="vol_zen_title">Interruptor Não perturbe</string>
   <string name="vol_zen_summary">Mostrar o interruptor não perturbe no painel de volume</string>
   <!-- Screen record chord behavior -->
-  <string name="screen_record_chord_title">Comportamento do botão liga/desliga + aumentar volume</string>
+  <string name="screen_record_chord_title">Botão liga/desliga + aumentar volume</string>
   <string name="screen_record_chord_screenrecord">Iniciar a gravação de tela</string>
-  <string name="screen_record_chord_selscreenshot">Tirar captura de tela da área selecionável</string>
+  <string name="screen_record_chord_selscreenshot">Captura de tela de uma área selecionável</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Níveis de volume</string>
   <string name="volume_steps_summary">Personalizar níveis de volume</string>
-  <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
-  <string name="volume_steps_dtmf_title">Níveis de volume: Teclado</string>
-  <string name="volume_steps_music_title">Níveis de volume: Mídia</string>
-  <string name="volume_steps_notification_title">Níveis de volume: Notificação</string>
-  <string name="volume_steps_ring_title">Níveis de volume: Toque</string>
-  <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
-  <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de Voz</string>
+  <string name="volume_steps_alarm_title">Alarme</string>
+  <string name="volume_steps_dtmf_title">Teclado</string>
+  <string name="volume_steps_music_title">Mídia</string>
+  <string name="volume_steps_notification_title">Notificação</string>
+  <string name="volume_steps_ring_title">Toque</string>
+  <string name="volume_steps_system_title">Sistema</string>
+  <string name="volume_steps_voice_call_title">Chamada de Voz</string>
   <string name="volume_steps_reset">Redefinir</string>
 </resources>

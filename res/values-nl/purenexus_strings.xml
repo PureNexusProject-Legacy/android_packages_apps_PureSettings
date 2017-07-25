@@ -69,7 +69,7 @@
   <string name="notification_light_screen_on">Oplichten terwijl scherm aan</string>
   <!-- Three finger swipe screenshot -->
   <string name="three_finger_gesture">Drievingerige schermafbeelding</string>
-  <string name="three_finger_gesture_summary">Veeg drie vingers over het scherm voor een schermafbeelding</string>
+  <string name="three_finger_gesture_summary">Veeg drie vingers over het scherm voor schermafbeelding</string>
   <!-- General strings -->
   <string name="cancel">Annuleren</string>
   <string name="save">Opslaan</string>
@@ -89,9 +89,6 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vingerafdruk authenticatie trilling</string>
   <string name="fprint_sucess_vib_summary">Trillen bij succesvolle vingerafdruk authenticatie</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Vingerafdruk ontgrendelen</string>
-  <string name="fp_unlock_keystore_summary">Ontgrendel apparaat met vingerafdruk na herstart zonder pin/wachtwoord/patroon\nLet op: eigen risico!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Vergrendelscherm items</string>
   <string name="lockscreen_clock_title">Vergrendelscherm klok</string>
@@ -447,9 +444,9 @@
   <string name="vol_zen_title">Niet storen schakelaar</string>
   <string name="vol_zen_summary">Niet storen schakelaar weergeven op volumepaneel</string>
   <!-- Screen record chord behavior -->
-  <string name="screen_record_chord_title">Power + volume omhoog gedrag</string>
+  <string name="screen_record_chord_title">Power + volume omhoog actie</string>
   <string name="screen_record_chord_screenrecord">Start schermopname</string>
-  <string name="screen_record_chord_selscreenshot">Neem schermafbeelding van selecteerbaar gebied</string>
+  <string name="screen_record_chord_selscreenshot">Schermafbeelding van selecteerbaar gebied</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Volumestappen</string>
   <string name="volume_steps_summary">Volumestappen aanpassen</string>

@@ -89,9 +89,6 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrace při načtení otisku prstu</string>
   <string name="fprint_sucess_vib_summary">Vibrace při úspěšném ověření otisku prstu</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Odemčení otiskem prstu</string>
-  <string name="fp_unlock_keystore_summary">Odemknout zařízení pomocí otisku prstu po restartu bez zadání pinu/hesla/vzoru\nPoznámka: použijte na vlastní nebezpečí!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Položky na uzamčené obrazovce</string>
   <string name="lockscreen_clock_title">Hodiny na uzamčené obrazovce</string>

@@ -89,9 +89,6 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">지문 인식시 진동</string>
   <string name="fprint_sucess_vib_summary">지문 인증이 성공하면 진동이 울립니다</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern\nNote: at your own risk!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">잠금 화면 항목</string>
   <string name="lockscreen_clock_title">잠금 화면 시계</string>
@@ -185,7 +182,7 @@
   <string name="notification_panel_title">알림 패널</string>
   <string name="qs_panel_title">빠른 설정 패널</string>
   <!-- QS easy toggles -->
-  <string name="qs_easy_toggle_title">Advanced quick setting easy toggle</string>
+  <string name="qs_easy_toggle_title">쉬운 고급 설정 토글</string>
   <string name="qs_easy_toggle_summary">한 번 탭해 블루투스, 데이터, WiFi를 켜거나 끕니다</string>
   <!-- qs brightness slider -->
   <string name="qs_brightness_slider_title">화면 밝기 조절 막대</string>

@@ -84,14 +84,11 @@
   <string name="unlock_scramble_pin_layout_title">Layout casuale</string>
   <string name="unlock_scramble_pin_layout_summary">Modifica casualmente il layout di inserimento del PIN di sblocco</string>
   <!-- Pin ripple -->
-  <string name="lockscreen_pin_ripple_title">Animazione di inserimento del codice di sblocco</string>
+  <string name="lockscreen_pin_ripple_title">Animazione inserimento codice di sblocco</string>
   <string name="lockscreen_pin_ripple_summary">Disattiva per rimuovere l\'animazione quando si immettono numeri pin</string>
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrazione all\'autenticazione dell\'impronta</string>
   <string name="fprint_sucess_vib_summary">Vibra all\'autenticazione con successo tramite impronta digitale</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Sblocco tramite impronta</string>
-  <string name="fp_unlock_keystore_summary">Sblocca dispositivo tramite impronta digitale dopo riavvio senza inserire pin/password/sequenza\nNota bene: poco sicuro!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Elementi nella schermata di blocco</string>
   <string name="lockscreen_clock_title">Orologio nella schermata di blocco</string>
@@ -104,7 +101,7 @@
   <string name="media_art_title">Copertina media</string>
   <string name="media_art_summary">Abilita la copertina dei media nella schermata di blocco</string>
   <!-- Lockscreen double tap to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Doppio tap per spegnere</string>
+  <string name="double_tap_sleep_anywhere_title">Doppio tocco per spegnere</string>
   <string name="double_tap_sleep_anywhere_summary">Tocca due volte la schermata di blocco per spegnere lo schermo</string>
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Font dell\'orologio nella schermata di blocco</string>

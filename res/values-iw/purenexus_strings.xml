@@ -89,9 +89,6 @@
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">רטט אימות טביעת אצבע</string>
   <string name="fprint_sucess_vib_summary">רטוט על אימות טביעת אצבע מוצלח</string>
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">פתיחה בטביעת אצבע</string>
-  <string name="fp_unlock_keystore_summary">פתיחת מכשיר בטביעת אצבע אחרי אתחול מחדש סיסמה/קוד/תבניתn\על אחריותך בלבד!</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">פריטי מסך הנעילה</string>
   <string name="lockscreen_clock_title">שעון במסך הנעילה</string>
